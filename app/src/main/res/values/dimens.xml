@@ -1,0 +1,2672 @@
+<!--
+  ~ Created by PS Solutions on 09/18/2017.
+  ~ Copyright © 2017 Softbank. All rights reserved.
+  ~
+  -->
+
+<resources>
+    <dimen name="ci_width">6dp</dimen>
+    <dimen name="ci_height">6dp</dimen>
+    <dimen name="ci_margin_slider">4dp</dimen>
+    <dimen name="ci_layout_height">40dp</dimen>
+    <dimen name="start_title_size">30dp</dimen>
+    <dimen name="add__edit_btn_delete_margin">10dp</dimen>
+    <dimen name="ms_mail_box_title_size">18dp</dimen>
+    <dimen name="ms_mail_box_address_size">15dp</dimen>
+    <dimen name="ms_category_large_border_height">3dp</dimen>
+    <dimen name="ms_category_border_height">2dp</dimen>
+    <dimen name="ms_category_small_border_height">1dp</dimen>
+    <dimen name="ms_category_title_margin">10dp</dimen>
+    <dimen name="ms_main_category_title_size">14dp</dimen>
+    <dimen name="ms_sub_category_title_size">16dp</dimen>
+    <dimen name="ms_sub_category_subview_width">8dp</dimen>
+    <dimen name="ms_sub_category_padding">10dp</dimen>
+
+    <dimen name="spam_category_title_text_size">12dp</dimen>
+    <dimen name="edittext_round_corner_radius">2dp</dimen>
+    <dimen name="edittext_round_height">48dp</dimen>
+    <dimen name="edittext_round_padding_start_end">8dp</dimen>
+    <dimen name="line_height_default">1dp</dimen>
+    <dimen name="line_height_small">2dp</dimen>
+    <dimen name="margin_edittext">-2dp</dimen>
+    <dimen name="view_line_margin">10dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_normal_text">12dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_radio_left">16dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="water_view_text_min_size">18dp</dimen>
+    <dimen name="water_view_text_height">25dp</dimen>
+    <dimen name="water_view_text_padding">4dp</dimen>
+    <dimen name="water_view_padding_left">2dp</dimen>
+    <dimen name="water_view_max_width">55dp</dimen>
+    <dimen name="radius_dot">45dp</dimen>
+    <dimen name="dot_normal_width">5dp</dimen>
+    <dimen name="radius_find">5dp</dimen>
+    <dimen name="ms_view_text_button_height">60dp</dimen>
+    <dimen name="ms_view_text_button_line_height">1dp</dimen>
+    <dimen name="ms_view_text_button_margin_left">10dp</dimen>
+
+    <dimen name="ms_main_mailview_parrent_height">90dp</dimen>
+    <dimen name="ms_main_mailview_margin_right">10dp</dimen>
+    <dimen name="ms_main_mailview_parrent_margin_right">20dp</dimen>
+    <dimen name="ms_main_mailview_parrent_margin_left">30dp</dimen>
+    <dimen name="ms_main_mailview_width_item_imageview">20dp</dimen>
+    <dimen name="ms_main_mailview_margin_top_imageview">25dp</dimen>
+    <dimen name="ms_main_mailview_margin_top_textview">15dp</dimen>
+    <dimen name="ms_main_mailview_height_textview">25dp</dimen>
+    <dimen name="ms_main_mailview_heigh_imageview">60dp</dimen>
+
+    <dimen name="ms_main_mail_small_textsize">12dp</dimen>
+    <dimen name="ms_main_mail_large_textsize">16dp</dimen>
+
+    <dimen name="ms_main_mail_filter_height_parrent">50dp</dimen>
+    <dimen name="ms_item_mail_filter_margin">20dp</dimen>
+    <dimen name="ms_item_mail_filter_margin_left">10dp</dimen>
+
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="sub_category_view_anti_spam_height">40dp</dimen>
+
+    <dimen name="notification_right_icon_size">40dp</dimen>
+    <dimen name="notification_subtext_size">12dp</dimen>
+    <dimen name="notification_icon_playvideo">30dp</dimen>
+    <!-- FIDO -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <dimen name="auth_result_activity_vertical_margin">16dp</dimen>
+    <dimen name="auth_result_activity_horizontal_margin">16dp</dimen>
+
+    <!--Mail setting-->
+
+
+    <!-- headerView -->
+    <dimen name="item_header_height_default">50dp</dimen>
+    <dimen name="botton_border_header_view_height">3dp</dimen>
+    <dimen name="text_size_header_view">24dp</dimen>
+    <dimen name="text_size_header_view_small">14dp</dimen>
+    <dimen name="header_view_action_text_size">12dp</dimen>
+    <dimen name="home_header_icon_padding_top">10dp</dimen>
+    <dimen name="home_header_icon_padding_horizontal">13dp</dimen>
+    <dimen name="home_header_icon_padding_bottom">16dp</dimen>
+    <!-- TextviewDot -->
+    <dimen name="dot_size_textview_dot">5dp</dimen>
+    <dimen name="padding_text">10dp</dimen>
+    <!-- spam mail filter setting-->
+    <!-- regsiter approve mail -->
+    <!-- -->
+    <!-- MainCategoryView -->
+
+    <!-- DetailMailView -->
+
+    <dimen name="global_slider_tab_height">72dp</dimen>
+    <dimen name="padding_bottom_with_padding_24dp">80dp</dimen>
+
+    <dimen name="graph_column_width">30dp</dimen>
+    <dimen name="graph_view_height">274dp</dimen>
+    <dimen name="graph_view_height_circle_home">145dp</dimen>
+
+    <!-- Square view -->
+    <dimen name="squareView_text_size">10dp</dimen>
+    <dimen name="squareView_padding">10dp</dimen>
+    <dimen name="rightmenu_margintop">30dp</dimen>
+
+    <dimen name="tiny_margin">2dp</dimen>
+    <dimen name="blue_circle_radius">45dp</dimen>
+    <dimen name="blue_circle_text_size">23dp</dimen>
+    <dimen name="point_view_height">40dp</dimen>
+    <dimen name="point_table_height">90dp</dimen>
+    <dimen name="padding_top_blue_circle">5dp</dimen>
+    <dimen name="down_arrow_dimen">20dp</dimen>
+
+    <!-- personal view-->
+    <dimen name="corner_border_detail_mail">10dp</dimen>
+    <dimen name="lib_licence_item_padding_top">21dp</dimen>
+    <dimen name="lib_licence_item_padding_bottom">22dp</dimen>
+    <dimen name="lib_licence_item_padding_left_right">24dp</dimen>
+    <dimen name="lib_licence_item_divider_margin_top">9dp</dimen>
+    <dimen name="lib_licence_item_divider_margin_bottom">15dp</dimen>
+    <dimen name="lib_licence_item_divider_height">0.5dp</dimen>
+    <dimen name="lib_license_item_height">64dp</dimen>
+    <dimen name="lib_licence_text_size">14dp</dimen>
+    <dimen name="lib_licence_height_image">16dp</dimen>
+    <dimen name="lib_licence_image_margin">5dp</dimen>
+    <dimen name="lib_licence_item_sub_name_margin_left">8dp</dimen>
+
+    <!-- circle -->
+    <dimen name="barcode_padding">30dp</dimen>
+
+    <!-- View bank card -->
+    <dimen name="standard_text_size_contract_screen">14dp</dimen>
+    <dimen name="sb_card_blue_number_size">28dp</dimen>
+    <dimen name="sb_card_title_text_size">16dp</dimen>
+    <dimen name="sb_card_text_size_small">14dp</dimen>
+    <dimen name="sb_card_text_size">12dp</dimen>
+    <dimen name="sb_card_margin_bank_card">12dp</dimen>
+    <dimen name="sb_card_text_button_margin_start">4dp</dimen>
+    <dimen name="sb_card_auto_charge_radius">3dp</dimen>
+    <dimen name="sb_card_loading_size">90dp</dimen>
+    <dimen name="sb_card_button_margin_top">8dp</dimen>
+    <dimen name="sb_card_button_padding">2dp</dimen>
+    <dimen name="sb_card_margin_start_text">12dp</dimen>
+    <dimen name="sb_card_height_type_card">20dp</dimen>
+
+    <!-- MailSettingView -->
+
+    <dimen name="contact_list_row_height">71dp</dimen>
+
+    <dimen name="text_size_option_service_mail_setting">18dp</dimen>
+    <dimen name="margin_top_option_service_mail_setting">20dp</dimen>
+    <dimen name="margin_bottom_option_service_mail_setting">10dp</dimen>
+    <dimen name="margin_start_view_service_option">20dp</dimen>
+    <dimen name="layout_padding_option_service_mail_setting">20dp</dimen>
+    <dimen name="drawable_padding_name">2dp</dimen>
+    <dimen name="elevation">5dp</dimen>
+    <dimen name="home_card_elevation">20dp</dimen>
+
+    <dimen name="P1">16dp</dimen>
+    <dimen name="P3">12dp</dimen>
+    <dimen name="P2">14dp</dimen>
+    <dimen name="H4">12dp</dimen>
+    <dimen name="H3">15dp</dimen>
+    <dimen name="H1">22dp</dimen>
+    <dimen name="H2">18dp</dimen>
+    <dimen name="h1_line_height">32dp</dimen>
+    <dimen name="margin_my_shop">30dp</dimen>
+
+    <!-- Dot Indicator -->
+    <dimen name="dot_size">12dp</dimen>
+
+    <!--SBSegment-->
+    <dimen name="sbseg_icon_width">21.82dp</dimen>
+    <dimen name="sbseg_icon_height">24dp</dimen>
+    <dimen name="sbseg_icon_margin_bottom">14dp</dimen>
+    <dimen name="sbseg_title_text_size">14dp</dimen>
+
+    <!--SBSwitch-->
+    <dimen name="sbsw_stroke_width_default">0.5dp</dimen>
+    <dimen name="sbsw_toggle_margin_default">3dp</dimen>
+    <dimen name="sbsw_switch_width_default">55dp</dimen>
+    <dimen name="sbsw_switch_height_default">35dp</dimen>
+
+    <!-- Mail 010000 -->
+    ​
+    <dimen name="charge_text_period">12dp</dimen>
+    ​
+    ​
+    ​
+    ​
+    ​
+    ​
+    ​
+
+    <!-- ContactListView -->
+    <dimen name="margin_contactlistview">10dp</dimen>
+    <dimen name="size_checkbox_contactlistview">30dp</dimen>
+    <dimen name="size_avatar_contactlistview">50dp</dimen>
+    <dimen name="size_avatar_contactlistview_parent">62dp</dimen>
+    <dimen name="detail_contactList_item_margin">33dp</dimen>
+    <dimen name="detail_contactList_item_margin_addPermission">42dp</dimen>
+    <dimen name="margin_checkbox_add_permission">36dp</dimen>
+
+    <!-- New Header View MailSetting -->
+    <dimen name="new_ms_text_size_above">14dp</dimen>
+    <dimen name="new_ms_text_size_below">18dp</dimen>
+
+    <!--MailSetting-->
+
+    <!-- Charge total 001 -->
+    <dimen name="charge_itempay_padding_top_and_bottom">3dp</dimen>
+    <dimen name="charge_margin">10dp</dimen>
+    <dimen name="charge_textsize_big">28dp</dimen>
+    <dimen name="charge_text_small">12dp</dimen>
+    <dimen name="charge_text_med">14dp</dimen>
+    <dimen name="charge_text_mount">20dp</dimen>
+    <dimen name="charge_relative_padding_top_and_bottom">3dp</dimen>
+    <dimen name="charge_textview_marginleft">20dp</dimen>
+    <dimen name="charge_textview_width">0dp</dimen>
+    <dimen name="charge_itemdetail_width_and_height">20dp</dimen>
+    <dimen name="bl018_child_item_data_left">0.41</dimen>
+    <dimen name="bl018_child_item_data_right">0.55</dimen>
+    <dimen name="charge_detail_textsize">16dp</dimen>
+    <dimen name="charge_parent_margin_left_right">24dp</dimen>
+    <dimen name="bl019_item_margin">6dp</dimen>
+    <dimen name="bl019_money_text_size">13dp</dimen>
+    <dimen name="bl019_month_text_size">14dp</dimen>
+    <dimen name="bl019_column_margin_top">8dp</dimen>
+    <dimen name="bl019_tv_margin_change">8dp</dimen>
+    <dimen name="bl019_tv_padding_change">8dp</dimen>
+    <dimen name="charge_padding">24dp</dimen>
+    <dimen name="bl104_charge_button_start_margin">34dp</dimen>
+    <dimen name="bl104_charge_button_height">40dp</dimen>
+
+    <!-- BL019 - Column graph view -->
+    <dimen name="radius_top_view">6dp</dimen>
+    <dimen name="negative_line_height">2dp</dimen>
+    <dimen name="column_view_margin_start_end">7dp</dimen>
+    <dimen name="column_view_text_margin_bottom">8dp</dimen>
+    <dimen name="column_view_coordinate_x_textsize">14dp</dimen>
+    <dimen name="column_view_coordinate_y_textsize">12dp</dimen>
+    <dimen name="column_view_coordinate_x_height">2dp</dimen>
+    <dimen name="column_view_coordinate_y_height">1dp</dimen>
+    <dimen name="column_view_width">40dp</dimen>
+    <dimen name="column_view_line_coordinate_y_height">1dp</dimen>
+    <dimen name="column_view_coordinate_y_width">37dp</dimen>
+    <dimen name="column_view_coordinate_y_margin_right">5dp</dimen>
+    <dimen name="column_view_coordinate_y_margin_left">6dp</dimen>
+    <dimen name="column_view_line_value_y_margin_top">20dp</dimen>
+    <dimen name="column_view_line_value_y_margin_bottom">8dp</dimen>
+
+    <!-- BL-000 -->
+    <dimen name="bl000_view_button_margin">24dp</dimen>
+    <dimen name="bl000_view_text_header_margin_bottom">12dp</dimen>
+    <dimen name="bl000_view_button_height">46dp</dimen>
+    <dimen name="bl000_view_footer_text_size_16">16dp</dimen>
+    <dimen name="bl000_view_footer_line">2dp</dimen>
+    <dimen name="bl000_view_footer_line_short">0.5dp</dimen>
+    <dimen name="bl000_partial_text_size_14">14dp</dimen>
+    <dimen name="bl000_margin_bottom_header">14dp</dimen>
+    <dimen name="bl000_margin_bottom_header_compare">10dp</dimen>
+    <dimen name="bl000_margin_bottom_header_margin_top">8dp</dimen>
+    <dimen name="bl000_ic_compare_padding">3dp</dimen>
+    <dimen name="bl000_line_spacing">5dp</dimen>
+    <dimen name="bl000_max_bubble_graph_height">700dp</dimen>
+
+    <!-- Charge -->
+
+    <!-- PWM -->
+    <dimen name="pwm_cancel_button_size">14dp</dimen>
+    <dimen name="pwm_view_height">0.5dp</dimen>
+
+    120dp
+
+    <dimen name="item_charge_sub_title_text_size">14dp</dimen>
+    <dimen name="item_charge_sub_title_line_height">22dp</dimen>
+    <dimen name="item_charge_card_margin_small">8dp</dimen>
+    <dimen name="button_active_charge_mato_mete_radius">45dp</dimen>
+
+    <!-- Data -->
+    <dimen name="sb04data_note_item_padding">15dp</dimen>
+    <dimen name="sb04data_padding_normal">10dp</dimen>
+    <dimen name="data_grap_title_text_size">18dp</dimen>
+    <dimen name="data_grap_data_padding_start">2dp</dimen>
+    <dimen name="sb04data_text_size_normal">14dp</dimen>
+    <dimen name="sb04data_text_size_small">12dp</dimen>
+    <dimen name="sb04data_text_size_large">16dp</dimen>
+    <dimen name="data_grap_line">1dp</dimen>
+    <dimen name="data_graph_margin_normal">10dp</dimen>
+    <dimen name="sb04data_line_height_small">2dp</dimen>
+    <dimen name="sb04data_line_height_medium">1.5dp</dimen>
+    <dimen name="sb04data_padding_button">12dp</dimen>
+    <dimen name="sb04data_with_onion">60dp</dimen>
+    <dimen name="dt000_margin_bottom_onion">60dp</dimen>
+    <dimen name="sb04data_translationY">-4dp</dimen>
+
+    <!-- Data contact -->
+    <dimen name="data_contact_graph_margin">5dp</dimen>
+
+    <!-- 04 data list total data-->
+    <dimen name="line_view">0.5dp</dimen>
+
+    <!--Fee settings-->
+
+    <!--Charge payment summary-->
+
+    <dimen name="charge_footer_text_item">14dp</dimen>
+
+
+    <!-- Charge payment compare  -->
+    <dimen name="charge_compare_height">40dp</dimen>
+    <dimen name="bl016_charge_compare_height_header">47dp</dimen>
+    <dimen name="bl016_item_six_month_compare">62dp</dimen>
+    <dimen name="bl016_item_description">55dp</dimen>
+    <dimen name="bl016_item_description_child">44dp</dimen>
+    <dimen name="bl016_item_header">40dp</dimen>
+    <dimen name="charge_compare_padding">4dp</dimen>
+    <dimen name="bl016_yen_padding">2dp</dimen>
+    <dimen name="bl016_item_note_padding">24dp</dimen>
+    <dimen name="bl016_layout_item_header_margin_bottom">7dp</dimen>
+    <dimen name="charge_compare_padding_detail">10dp</dimen>
+    <dimen name="charge_compare_padding_icon">15dp</dimen>
+    <dimen name="charge_compare_margin_header">24dp</dimen>
+    <dimen name="charge_compare_icon_next_margin">5dp</dimen>
+    <dimen name="charge_compare_text_size_14">14dp</dimen>
+    <dimen name="charge_compare_text_size_15">15dp</dimen>
+    <dimen name="charge_compare_text_size_16">16dp</dimen>
+    <dimen name="charge_compare_text_size_25">25dp</dimen>
+    <dimen name="charge_compare_text_size_28">28dp</dimen>
+    <dimen name="charge_compare_text_size_22">22dp</dimen>
+    <dimen name="charge_compare_text_size_18">18dp</dimen>
+    <dimen name="bl016_item_header_border">176dp</dimen>
+    <dimen name="bl016_text_size_28">28dp</dimen>
+    <dimen name="bl016_text_size_37">37dp</dimen>
+    <dimen name="bl016_text_size_25">25dp</dimen>
+    <dimen name="bl016_text_size_18">18dp</dimen>
+    <dimen name="bl016_text_size_17">17dp</dimen>
+    <dimen name="bl016_compare_margin_bottom">16dp</dimen>
+    <dimen name="bl016_compare_number_margin_top">24dp</dimen>
+    <dimen name="bl016_compare_number_margin_bottom">12dp</dimen>
+    <dimen name="bl016_view_header">24dp</dimen>
+    <dimen name="charge_compare_text_size_12">12dp</dimen>
+    <dimen name="bl016_border_view">5dp</dimen>
+    <dimen name="bl016_border_view_footer">8dp</dimen>
+    <dimen name="bl016_border_view_large">10dp</dimen>
+    <dimen name="bl016_item_header_compare">150dp</dimen>
+    <dimen name="bl016_item_header_padding_top">12dp</dimen>
+    <dimen name="bl016_item_header_padding_bottom">7dp</dimen>
+    <dimen name="bl016_header_ic_status_padding">8dp</dimen>
+    <dimen name="bl016_header_line">2dp</dimen>
+    <dimen name="bl016_button_width">150dp</dimen>
+    <dimen name="bl016_button_height">30dp</dimen>
+    <dimen name="bl016_line_padding">6dp</dimen>
+    <dimen name="bl016_text_size_header_expand">14dp</dimen>
+    <dimen name="bl016_padding">24dp</dimen>
+    <dimen name="bl016_padding_item_compare">12dp</dimen>
+    <dimen name="bl016_item_bottom_header">68dp</dimen>
+    <dimen name="bl016_item_bottom_header_margin_bottom">12dp</dimen>
+
+    <!-- Charge BL-018  -->
+    <dimen name="bl018_icon_info_padding">6dp</dimen>
+    <dimen name="bl018_text_line_height">22dp</dimen>
+    <dimen name="bl018_item_padding_spacing_left">0.04</dimen>
+    <dimen name="bl018_item_padding">24dp</dimen>
+    <dimen name="bl018_item_padding_detail">5dp</dimen>
+    <dimen name="bl018_item_padding_12">12dp</dimen>
+    <dimen name="bl018_item_padding_low">12dp</dimen>
+    <dimen name="bl018_item_padding_header">8dp</dimen>
+    <dimen name="bl018_item_padding_hight">48dp</dimen>
+    <dimen name="bl018_item_padding_end">29dp</dimen>
+    <dimen name="bl018_item_padding_start">19dp</dimen>
+    <dimen name="bl018_item_padding_tv">10dp</dimen>
+    <dimen name="bl018_text_12">12dp</dimen>
+    <dimen name="bl018_text_14">14dp</dimen>
+    <dimen name="bl018_text_15">15dp</dimen>
+    <dimen name="bl018_text_13">13dp</dimen>
+    <dimen name="bl018_text_16">16dp</dimen>
+    <dimen name="bl018_text_20">20dp</dimen>
+    <dimen name="bl018_text_1">1dp</dimen>
+    <dimen name="bl018_spacing_ln_view">38.51</dimen>
+    <dimen name="bl018_spacing_view_inner">4</dimen>
+    <dimen name="bl018_spacing_ln_tv">51.4</dimen>
+    <dimen name="bl108_spacing_middle_ln_tv">6.42</dimen>
+    <dimen name="bl018_ic_navi_padding">5dp</dimen>
+    <dimen name="bl018_ic_total_padding">15dp</dimen>
+    <dimen name="bl018_ic_mobile_end">12dp</dimen>
+    <dimen name="bl018_tv_billing_request">70dp</dimen>
+    <dimen name="bl018_yen_margin_end">8dp</dimen>
+    <dimen name="bl018_yen_margin">3dp</dimen>
+    <dimen name="bl018_sub_total_margin">11dp</dimen>
+    <dimen name="bl018_view_header">45dp</dimen>
+    <dimen name="bl018_item_child_header">40dp</dimen>
+    <dimen name="bl018_item_shadow_header">12dp</dimen>
+    <dimen name="bl016_item_shadow_header">8dp</dimen>
+    <dimen name="bl018_item_shadow_header_bottom">24dp</dimen>
+    <dimen name="bl018_item_margin_child">24dp</dimen>
+    <dimen name="bl018_line_indicator_1">1dp</dimen>
+    <dimen name="bl018_line_indicator_2">2dp</dimen>
+    <dimen name="bl018_child_item_note">60dp</dimen>
+    <dimen name="bl018_text_18">18dp</dimen>
+    <dimen name="bl018_item_bottom_line_padding">18dp</dimen>
+    <dimen name="bl018_sticky_row_height">64dp</dimen>
+    <dimen name="bl018_fee_margin_top">27dp</dimen>
+    <dimen name="bl018_fee_margin_bottom">22dp</dimen>
+    <dimen name="bl018_fee_number_start">13dp</dimen>
+    <dimen name="bl018_fee_number_end">3dp</dimen>
+    <dimen name="bl018_fee_note_margin_bottom">30dp</dimen>
+    <dimen name="bl018_fee_description_margin_top">21dp</dimen>
+    <dimen name="bl018_button_power_ic_end">26dp</dimen>
+
+    <!-- BL-109 -->
+    <dimen name="bl109_item_power_detail_height">183dp</dimen>
+    <dimen name="bl109_item_power_BB_detail_height">255dp</dimen>
+    <dimen name="bl109_button">48dp</dimen>
+    <dimen name="bl109_text_16">16dp</dimen>
+    <dimen name="bl109_margin_start">38dp</dimen>
+    <dimen name="bl109_margin_end">33dp</dimen>
+    <dimen name="bl109_margin_top">22dp</dimen>
+    <dimen name="bl109_margin_bottom">33dp</dimen>
+    <dimen name="bl109_ic_padding">10dp</dimen>
+    <dimen name="bl109_button_margin">24dp</dimen>
+    <dimen name="bl109_margin_normal">24dp</dimen>
+    <dimen name="bl109_button_margin_bottom">36dp</dimen>
+
+    <!-- 02 plan -->
+
+    <dimen name="hm001_extra_spacing_title">3dp</dimen>
+
+    <!--plan ag000-->
+    <dimen name="ag000_margin_end_text_plan">12dp</dimen>
+    <dimen name="stroke_width">1dp</dimen>
+    <dimen name="ag000_image_device_height">187dp</dimen>
+    <dimen name="ag000_text_size_header">14dp</dimen>
+    <dimen name="ag000_text_size_data">15dp</dimen>
+    <dimen name="ag000_text_size_title">12dp</dimen>
+    <dimen name="ag000_margin_top_inner_item">4dp</dimen>
+    <dimen name="ag000_height_decorator">0.5dp</dimen>
+    <dimen name="ag000_height_elevation">5dp</dimen>
+    <dimen name="ag000_margin_bottom_change_plan">12dp</dimen>
+    <dimen name="ag000_padding_start_change_plan">14dp</dimen>
+    <dimen name="ag000_padding_top_change_plan">18dp</dimen>
+    <dimen name="ag000_tv_change_plan_textsize">14dp</dimen>
+    <dimen name="ag000_width_next_btn_padding">8dp</dimen>
+
+    <!--plan dialog ag000-->
+    <dimen name="ag029_text_size_title_dialog">14dp</dimen>
+    <dimen name="ag029_text_size_data_dialog">15dp</dimen>
+    <dimen name="ag029_magin_top_title_dialog">14dp</dimen>
+    <dimen name="ag029_magin_title_dialog_change">8dp</dimen>
+    <dimen name="ag029_magin_inner_item_dialog">5dp</dimen>
+    <dimen name="ag029_text_size_header1_dialog">18dp</dimen>
+    <dimen name="ag029_text_size_header2_dialog">16dp</dimen>
+    <dimen name="ag029_text_size_header2_dialog_change">14dp</dimen>
+    <dimen name="ag029_margin_top_dialog_header">24dp</dimen>
+    <dimen name="ag029_dialog_margin_header_view">24dp</dimen>
+    <dimen name="ag029_dialog_margin_bottom_view_change">12dp</dimen>
+    <dimen name="ag029_margin_bottom_rv">21.5dp</dimen>
+    <dimen name="ag029_padding_item_price_plan">15dp</dimen>
+    <dimen name="ag029_padding_title_dialog_change">8dp</dimen>
+    <dimen name="ag029_dialog_btn_hight_close">52dp</dimen>
+
+    <!--AG010-->
+    <dimen name="ag010_item_text_margin">4dp</dimen>
+    <dimen name="ag010_item_margin_large">24dp</dimen>
+    <dimen name="ag010_item_margin_normal">18dp</dimen>
+    <dimen name="ag010_header_small_text_size">16dp</dimen>
+    <dimen name="ag010_margin_top_header_small">45dp</dimen>
+    <dimen name="ag010_margin_top_installment">33dp</dimen>
+    <dimen name="ag010_height_item_installment">68dp</dimen>
+    <dimen name="ag010_width_36_item_installment">8dp</dimen>
+    <dimen name="ag010_width_24_item_installment">11dp</dimen>
+    <dimen name="ag010_margin_top_rv_installment">18dp</dimen>
+    <dimen name="ag010_width_48_item_installment">6dp</dimen>
+    <dimen name="ag010_text_size_item_installment">48dp</dimen>
+    <dimen name="ag010_text_size_item_header_installment">14dp</dimen>
+    <dimen name="ag010_text_size_months_installment">12dp</dimen>
+    <dimen name="ag010_height_device">42dp</dimen>
+    <dimen name="ag010_header_margin">24dp</dimen>
+    <dimen name="ag010_text_size_14">14dp</dimen>
+    <dimen name="ag010_text_size_15">15dp</dimen>
+    <dimen name="ag010_text_size_18">18dp</dimen>
+    <dimen name="ag010_image_margin">15dp</dimen>
+    <dimen name="ag010_spacing_extra">5dp</dimen>
+    <dimen name="ag010_stroke_installment">1dp</dimen>
+    <dimen name="ag010_radius_installment">2dp</dimen>
+    <dimen name="ag010_height_decoration">0.5dp</dimen>
+    <dimen name="ag010_rolling_number_height">68dp</dimen>
+    <dimen name="ag010_text_after_margin_end">12dp</dimen>
+    <dimen name="ag010_text_after_padding_bottom">15dp</dimen>
+    <dimen name="ag010_division_num_margin_start">5dp</dimen>
+
+    <!--plan ag000 tab3-->
+    <dimen name="ag000_margin_iner_item_header">6dp</dimen>
+    <dimen name="ag000_text_size_item_data">12dp</dimen>
+    <dimen name="ag000_text_size_item_title">14dp</dimen>
+    <dimen name="ag000_text_size_item_data_discount">15dp</dimen>
+
+    <!--hm001-->
+    <dimen name="hm001_padding_suggest_button">8dp</dimen>
+    <!--ag027-->
+    <dimen name="ag027_text_size_header">18dp</dimen>
+    <dimen name="ag027_text_size_item_top">28dp</dimen>
+    <dimen name="ag027_text_size_title">14dp</dimen>
+    <dimen name="ag027_text_size_info">15dp</dimen>
+    <dimen name="ag027_text_size_number">16dp</dimen>
+    <dimen name="ag027_margin_top_contract_period">32dp</dimen>
+    <dimen name="ag027_margin_start_next_period">17dp</dimen>
+    <dimen name="ag027_margin_top_next_period">3dp</dimen>
+    <dimen name="ag027_margin_next_period">22dp</dimen>
+    <dimen name="ag027_margin_bottom_next_period">8dp</dimen>
+    <dimen name="ag027_margin_top_title_next_period">19dp</dimen>
+    <dimen name="ag027_text_size_title_contract_period">14dp</dimen>
+    <dimen name="ag027_text_size_data_contract_period">56dp</dimen>
+    <dimen name="ag027_text_size_title_next_contract_period">12dp</dimen>
+    <dimen name="ag027_text_size_data_next_contract_period">15dp</dimen>
+    <dimen name="ag027_margin_top_decorator_contract_period">11dp</dimen>
+    <dimen name="ag027_padding_bottom_contract_period_content">19dp</dimen>
+    <dimen name="ag027_contract_period_top_image_height">42dp</dimen>
+    <dimen name="ag027_contract_period_width">285dp</dimen>
+    <dimen name="ag027_text_item_top_margin">9dp</dimen>
+    <dimen name="ag027_item_top_margin_bottom">12dp</dimen>
+    <dimen name="ag027_item_detail_margin">16dp</dimen>
+    <dimen name="ag027_item_detail_margin_bottom">24dp</dimen>
+    <dimen name="ag027_header_margin_top">48dp</dimen>
+    <dimen name="ag027_height_decoration_header">1.5dp</dimen>
+    <dimen name="ag027_height_decoration">0.5dp</dimen>
+    <dimen name="ag027_margin_end_img_long_term">7dp</dimen>
+    <dimen name="ag027_text_size_title_period">14dp</dimen>
+    <dimen name="ag027_radius_next_period">12dp</dimen>
+    <dimen name="ag027_padding_start_long_term">8dp</dimen>
+    <dimen name="ag027_text_size_welcome">30dp</dimen>
+    <dimen name="ag027_padding_top_welcome">95dp</dimen>
+    <dimen name="ag027_padding_bottom_welcome">76dp</dimen>
+    <dimen name="ag027_rolling_number_height">70dp</dimen>
+    <dimen name="ag027_item_year_margin_top">10dp</dimen>
+    <dimen name="ag027_item_text_size_14">14dp</dimen>
+    <dimen name="ag027_item_year_margin_start">6dp</dimen>
+    <dimen name="ag027_item_contract_period_elevation">1dp</dimen>
+
+    <!--change plan ag003-->
+    <dimen name="plan_change_plan_header">15dp</dimen>
+
+    <!--point-->
+    <dimen name="pt003_title_padding">6dp</dimen>
+    <dimen name="pt003_view_height">2dp</dimen>
+    <dimen name="pt003_view_height_small">0.5dp</dimen>
+    <dimen name="pt003_img_padding_left">7dp</dimen>
+    <dimen name="pt003_img_padding">15dp</dimen>
+    <dimen name="pt003_header_padding">18dp</dimen>
+    <dimen name="pt003_parent_padding">24dp</dimen>
+    <dimen name="pt003_button_height">48dp</dimen>
+    <dimen name="pt003_text_sub_min_width">80dp</dimen>
+    <dimen name="pt003_text_sub_width">120dp</dimen>
+    <dimen name="pt003_sub_width">140dp</dimen>
+    <dimen name="pt003_text_sub_max_width">150dp</dimen>
+    <dimen name="pt003_text_sub_padding">16dp</dimen>
+    <dimen name="pt003_padding_point">18dp</dimen>
+    <dimen name="pt003_text_size_small">12dp</dimen>
+    <dimen name="pt003_text_sub_point_small">13dp</dimen>
+    <dimen name="pt003_text_size_normal">14dp</dimen>
+    <dimen name="pt003_text_size_default">16dp</dimen>
+    <dimen name="pt003_text_size_xlarge">18dp</dimen>
+    <dimen name="pt003_text_size_point">35dp</dimen>
+    <dimen name="pt003_rolling_digit_height">42dp</dimen>
+    <dimen name="hm001_ic_point_width">48dp</dimen>
+    <dimen name="pt003_layout_point_small_margin_top">-13dp</dimen>
+
+    <dimen name="point_padding_bottom">60dp</dimen>
+    <dimen name="point_padding_bottom_normal">75dp</dimen>
+    <dimen name="point_padding_bottom_min">70dp</dimen>
+    <dimen name="point_padding_bottom_max">80dp</dimen>
+    <dimen name="point_width_icon_base">40dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="charge_height_devidid">1dp</dimen>
+    <integer name="charge_rotation_view_right">180</integer>
+    <dimen name="bl019_dot_legend_column_graph_size">14dp</dimen>
+    <dimen name="charge_textsize_header">16dp</dimen>
+
+    <dimen name="pt025_checkbox_dimen">24dp</dimen>
+    <dimen name="pt025_tv_title_padding_top">24dp</dimen>
+    <dimen name="pt025_tv_title_margin_top_change">24dp</dimen>
+    <dimen name="pt025_note_margin_top">13dp</dimen>
+    <dimen name="pt025_icon_no_margin_bottom">8dp</dimen>
+    <dimen name="pt025_text_size_normal">14dp</dimen>
+    <dimen name="pt025_text_size_large">17dp</dimen>
+    <dimen name="pt025_tv_title_size">14dp</dimen>
+    <dimen name="pt025_tv_title_size_change">14dp</dimen>
+    <dimen name="pt025_btn_yes_padding">14dp</dimen>
+    <dimen name="pt025_tv_check_margin">34dp</dimen>
+    <dimen name="pt025_divider_size">0.5dp</dimen>
+    <dimen name="pt025_tv_padding_size">8dp</dimen>
+    <dimen name="pt025_tv_margin_size_change">40dp</dimen>
+    <dimen name="pt009_item_margin">24dp</dimen>
+    <dimen name="pt009_text_size_large">18dp</dimen>
+    <dimen name="pt009_border_radius">4dp</dimen>
+    <dimen name="pt009_edt_text_size">21dp</dimen>
+    <dimen name="pt009_btn_height">48dp</dimen>
+    <dimen name="pt009_btn_margin_top">38dp</dimen>
+    <dimen name="pt009_edt_min_width">110dp</dimen>
+    <dimen name="pt025_bg_radius">24dp</dimen>
+    <dimen name="pt025_bg_radius_change">12dp</dimen>
+    <dimen name="pt025_title_margin_bottom">21dp</dimen>
+    <dimen name="pt025_title_margin">12dp</dimen>
+    <dimen name="pt025_divider_height">52dp</dimen>
+    <dimen name="sb09point_common_padding">24dp</dimen>
+    <dimen name="pt009_text_point_margin">28dp</dimen>
+    <dimen name="sb09point_width_ball">375px</dimen>
+    <dimen name="sb09point_height_ball">405px</dimen>
+
+    <dimen name="sb09point_text_size_small">12dp</dimen>
+    <dimen name="sb09point_text_size_normal">14dp</dimen>
+    <dimen name="sb09point_text_line_height">22dp</dimen>
+    <dimen name="sb09point_text_size_large">16dp</dimen>
+    <dimen name="sb09point_text_size__title_dialog">18dp</dimen>
+    <dimen name="pt004_common_padding_normal">18dp</dimen>
+    <dimen name="pt004_common_margin_start">20dp</dimen>
+    <dimen name="pt004_padding_small">12dp</dimen>
+    <dimen name="pt004_padding_small_1">18dp</dimen>
+    <dimen name="sb09point_common_shadow_height">8dp</dimen>
+    <dimen name="pt033_view_padding">24dp</dimen>
+    <dimen name="pt033_view_padding_change">40dp</dimen>
+    <dimen name="pt033_bg_view_radius">24dp</dimen>
+    <dimen name="pt033_bg_view_radius_change">12dp</dimen>
+    <dimen name="pt033_text_description_margin_bottom">17dp</dimen>
+    <dimen name="pt033_text_title_margin_bottom">12dp</dimen>
+    <dimen name="pt033_text_title_margin_bottom_change">12dp</dimen>
+    <dimen name="pt033_text_title_margin_top">24dp</dimen>
+    <dimen name="pt033_text_title_margin_top_change">24dp</dimen>
+    <dimen name="pt033_text_mobile_purchase_margin">31dp</dimen>
+    <dimen name="pt033_text_purchase_option_margin">25.3dp</dimen>
+    <dimen name="pt033_text_mobile_repair_margin">27.4dp</dimen>
+    <dimen name="sb09point_text_size_date">13dp</dimen>
+    <dimen name="sb09point_text_size_confirm">13dp</dimen>
+    <dimen name="sb09point_button_padding_start">8dp</dimen>
+    <dimen name="sb09point_button_padding_bottom">4dp</dimen>
+    <dimen name="sb09point_button_padding_top">2dp</dimen>
+    <dimen name="sb09point_padding_start">4dp</dimen>
+    <dimen name="pt033_view_line_margin_header">23dp</dimen>
+    <dimen name="pt029_view_height_small">0.5dp</dimen>
+    <dimen name="hm001_view_point_small">3dp</dimen>
+    <dimen name="hm001_margin_point_sb">12dp</dimen>
+    <dimen name="pt004_item_registering_margin_top">37dp</dimen>
+    <dimen name="pt004_text_size_point">19dp</dimen>
+    <dimen name="sb09point_ball_size_small">4dp</dimen>
+    <dimen name="sb09point_circle_center_y">170dp</dimen>
+    <dimen name="sb09point_small_ball_size">45dp</dimen>
+    <dimen name="sb09point_circle_size">300dp</dimen>
+    <dimen name="sb09point_layout_padding_bottom">36dp</dimen>
+    <dimen name="sb09point_line_spacing_normal">4dp</dimen>
+    <dimen name="sb09point_line_spacing_small">4dp</dimen>
+    <dimen name="pt033_line_spacing_title">9dp</dimen>
+    <dimen name="pt004_line_spacing_txt_date">6dp</dimen>
+    <dimen name="pt009_line_spacing">2dp</dimen>
+    <dimen name="sb09point_line_spacing_dialog">7dp</dimen>
+    <dimen name="pt004_header_full_size_margin_bottom">173dp</dimen>
+    <dimen name="sb09point_ic_error_margin_mall">3dp</dimen>
+    <dimen name="sb09point_height_min">50dp</dimen>
+    <dimen name="sb09point_list_padding_bottom">56dp</dimen>
+    <dimen name="sb09point_height">70dp</dimen>
+    <dimen name="sb09point_height_circle">65dp</dimen>
+    <dimen name="sb09point_height_max">85dp</dimen>
+    <dimen name="sb09point_height_normal">60dp</dimen>
+
+
+    <!--Plan Ag005-->
+    <dimen name="ag005_margin_recyclerview">16dp</dimen>
+    <dimen name="ag005_margin_bottom_text_header_t">24dp</dimen>
+    <dimen name="ag005_margin_item">18dp</dimen>
+    <dimen name="ag005_padding_footer">6dp</dimen>
+    <dimen name="ag005_text_size_title_item">14dp</dimen>
+    <dimen name="ag005_line_spacing_extra">8dp</dimen>
+    <dimen name="ag005_text_size_value">15dp</dimen>
+    <dimen name="ag005_height_decorator">0.5dp</dimen>
+
+    <!-- 02 plain -->
+    <dimen name="plan_kappu_002_text_14">14dp</dimen>
+    <dimen name="text_radius">2dp</dimen>
+    <!--plan ag006-->
+    <dimen name="radius_background_border_home_button">8dp</dimen>
+
+    <dimen name="hm001_top_view_device_image_height">116dp</dimen>
+    <dimen name="hm001_top_view_imv_device_padding">10dp</dimen>
+
+    <!--DATA-->
+    <dimen name="data_auto_header">15dp</dimen>
+    <dimen name="data_auto_item">14dp</dimen>
+    <dimen name="data_auto_text">12dp</dimen>
+    <dimen name="data_max_text_size">21dp</dimen>
+
+    <!-- BL-023 -->
+    <dimen name="bl023_normal_item_padding">18dp</dimen>
+    <dimen name="bl023_normal_item_height">60dp</dimen>
+    <dimen name="bl023_normal_devider_height">1dp</dimen>
+    <dimen name="bl023_blue_devider_height">1.5dp</dimen>
+    <dimen name="bl023_normal_separtor_height">48dp</dimen>
+    <dimen name="bl023_list_padding_end">5dp</dimen>
+    <dimen name="bl023_normal_padding">24dp</dimen>
+    <dimen name="bl023_padding_large">24dp</dimen>
+    <dimen name="bl023_normal_text_size">14dp</dimen>
+    <dimen name="bl023_large_label_text_size">16dp</dimen>
+    <dimen name="bl023_margin_bottom_label_small">3dp</dimen>
+    <dimen name="bl023_height_wrapper_large_label">36dp</dimen>
+    <dimen name="bl023_margin_top_large_label">24dp</dimen>
+    <dimen name="bl023_margin_bottom_web_detail_button">36dp</dimen>
+    <dimen name="bl023_margin_bottom_tv_title_web_detail">9dp</dimen>
+    <dimen name="bl023_item_status_width">56dp</dimen>
+    <dimen name="bl023_item_status_height">20dp</dimen>
+    <dimen name="bl023_button_text_size">16dp</dimen>
+
+
+    <dimen name="bl023_padding_s1">9dp</dimen>
+    <dimen name="bl023_padding_small">12dp</dimen>
+    <dimen name="bl023_row_height_s1">55dp</dimen>
+    <dimen name="bl023_row_height_t1">33dp</dimen>
+    <dimen name="bl023_btn_height_large">46dp</dimen>
+    <dimen name="bl023_btn_width_large">299dp</dimen>
+    <dimen name="bl023_dialog_btn_height">48dp</dimen>
+    <dimen name="bl023_service_name_margin_bottom">18dp</dimen>
+    <dimen name="bl023_service_type_label_width">56dp</dimen>
+    <dimen name="bl023_hl">37dp</dimen>
+    <dimen name="bl023_label_yen_margin_top">25dp</dimen>
+    <dimen name="bl023_label_yen_margin_start">3dp</dimen>
+    <dimen name="bl023_line_margin">24dp</dimen>
+    <dimen name="bl023_text_size_34">34dp</dimen>
+
+    <!-- BL-022 -->
+    <dimen name="bl022_imv_detail_margin_start">15dp</dimen>
+    <dimen name="bl022_imv_pernament_charge_margin_end">4dp</dimen>
+    <dimen name="bl022_text_size_normal">14dp</dimen>
+    <dimen name="bl022_text_size_small">12dp</dimen>
+    <dimen name="bl022_text_size_13">13dp</dimen>
+    <dimen name="bl022_normal_padding">24dp</dimen>
+    <dimen name="bl022_normal_padding_s">20dp</dimen>
+    <dimen name="bl022_small_padding_l">14dp</dimen>
+    <dimen name="bl022_small_padding_e">16dp</dimen>
+    <dimen name="bl022_small_padding_m">12dp</dimen>
+    <dimen name="bl022_tiny_padding_m">6dp</dimen>
+    <dimen name="bl022_list_item_padding_top">18dp</dimen>
+    <dimen name="bl022_padding_top_permanent_charge">18dp</dimen>
+    <dimen name="bl022_padding_bottom_permanent_charge">8dp</dimen>
+    <dimen name="bl022_width_m">0dp</dimen>
+    <dimen name="bl022_font_size_total_cast">19dp</dimen>
+    <dimen name="bl022_spinner_height">47dp</dimen>
+    <dimen name="bl022_btn_sort_width">173dp</dimen>
+    <dimen name="bl022_btn_sort_height">30dp</dimen>
+    <dimen name="bl022_header_margin_bottom">30dp</dimen>
+    <dimen name="bl022_service_name_margin_end">16.5dp</dimen>
+    <dimen name="bl022_wrapper_service_name_margin_bottom">8dp</dimen>
+    <dimen name="bl022_header_height">78dp</dimen>
+    <dimen name="bl022_devider_height">1.5dp</dimen>
+    <dimen name="bl022_status_width">56dp</dimen>
+    <dimen name="bl022_status_height">20dp</dimen>
+    <dimen name="bl022_shadown_height">24dp</dimen>
+    <dimen name="bl022_padding_bottom">48dp</dimen>
+    <dimen name="bl022_title_line_padding_top">14dp</dimen>
+    <dimen name="bl022_title_line_padding_bottom">18dp</dimen>
+    <dimen name="bl022_padding_normal">12dp</dimen>
+    <dimen name="bl022_padding_small">6dp</dimen>
+    <dimen name="bl022_padding_high">24dp</dimen>
+    <dimen name="bl022_padding_number_top">18dp</dimen>
+    <dimen name="bl022_padding_number_bottom">8dp</dimen>
+    <dimen name="bl022_line_cancel">2dp</dimen>
+    <dimen name="bl022_line_cancel_padding_bottom">10dp</dimen>
+    <dimen name="bl022_bg_rectangle_radius">4dp</dimen>
+
+    <dimen name="dt001_dialog_text_size">20dp</dimen>
+    <dimen name="dt001_padding_left">24dp</dimen>
+    <dimen name="dt001_padding_left_change">40dp</dimen>
+    <dimen name="dt001_padding_top_tv">18dp</dimen>
+    <dimen name="dt001_margin_top_tv_title_list">24dp</dimen>
+    <dimen name="dt001_margin_top_tv_title">12dp</dimen>
+    <dimen name="dt001_margin_bottom_recycler_view">6dp</dimen>
+    <dimen name="dt001_text_view_padding_end">28dp</dimen>
+    <dimen name="sb04dt_layout_margin">16dp</dimen>
+    <dimen name="dt006_imv_width">30dp</dimen>
+    <dimen name="dt006_margin_start">12dp</dimen>
+    <dimen name="dt006_rounded_corner_value">20dp</dimen>
+    <dimen name="dt007_padding_start">24dp</dimen>
+    <dimen name="dt007_padding_start_top">14dp</dimen>
+    <dimen name="dt007_margin_bottom">20dp</dimen>
+    <dimen name="dt007_padding_bottom">6dp</dimen>
+    <dimen name="dt007_margin_top_button_setting">12dp</dimen>
+    <dimen name="dt007_margin_bottom_button_setting">72dp</dimen>
+    <dimen name="dt007_margin_end">48dp</dimen>
+    <dimen name="dt007_margin_bottom_note">45dp</dimen>
+    <dimen name="sb04data_image_width">24dp</dimen>
+    <dimen name="dt008_padding_end">38dp</dimen>
+    <dimen name="dt007_button_height">46dp</dimen>
+    <dimen name="dt001_tv_data_number_digit_height">28dp</dimen>
+    <dimen name="dt000_tv_remaining_data_layout_height">42dp</dimen>
+    <dimen name="dt000_tv_remaining_data_digit_height">44dp</dimen>
+    <dimen name="dt000_tv_used_data_layout_height">16dp</dimen>
+    <dimen name="dt007_text_title_size">18dp</dimen>
+    <dimen name="dt007_text_sub_title_size">12dp</dimen>
+    <dimen name="dt007_margin_normal">15dp</dimen>
+    <dimen name="dt007_button_margin">38dp</dimen>
+    <dimen name="dt000_01_item_padding">17dp</dimen>
+    <dimen name="dt000_01_text_size_date_ago">15dp</dimen>
+    <dimen name="dt000_01_text_size_usage_data_ago">16dp</dimen>
+    <dimen name="dt000_01_text_size_usage_packet">14dp</dimen>
+    <dimen name="dt000_01_bg_radius">24dp</dimen>
+    <dimen name="dt000_01_bg_radius_change">12dp</dimen>
+    <dimen name="dt000_01_bg_radius_plan">12dp</dimen>
+    <dimen name="dt008_indicator_size">3dp</dimen>
+    <dimen name="dt007_item_height">48dp</dimen>
+    <dimen name="dt000_item_pattern_c">8dp</dimen>
+    <dimen name="sb04data_item_padding_normal">24dp</dimen>
+    <dimen name="sb04data_item_padding_title">50dp</dimen>
+    <dimen name="dt000_circle_margin_bottom">12dp</dimen>
+    <dimen name="dt007_padding_top_tittle">24dp</dimen>
+    <dimen name="sb04data_item_padding">18dp</dimen>
+    <dimen name="sb04data_list_padding">15.5dp</dimen>
+    <dimen name="dt000_togge_padding">9.5dp</dimen>
+    <dimen name="dt000_text_outline_padding_top">2dp</dimen>
+    <dimen name="dt000_text_onion_max_bg_radius">3dp</dimen>
+    <dimen name="sb04data_item_padding_small">26dp</dimen>
+    <dimen name="dt001_padding_normal">14dp</dimen>
+    <dimen name="dt000_padding_normal">13dp</dimen>
+    <dimen name="dt000_break_margin_bottom">7dp</dimen>
+    <dimen name="dt000_break_margin_top">11.5dp</dimen>
+    <dimen name="dt001_free_margin">9dp</dimen>
+    <dimen name="dt001_free_margin_right">11dp</dimen>
+    <dimen name="hm000_digit_height_pattern_c">22dp</dimen>
+
+    <!-- BL-019 -->
+    <dimen name="height_fido_button">30dp</dimen>
+    <dimen name="width_fido_switch">0dp</dimen>
+    <dimen name="bl019_graph_view">296dp</dimen>
+    <dimen name="bl019_legend_item">45dp</dimen>
+    <dimen name="bl019_ic_expand_width_height">24dp</dimen>
+    <dimen name="bl019_decorator_height">1dp</dimen>
+    <dimen name="bl019_item_height">48dp</dimen>
+
+    <!--Common checkbox-->
+    <dimen name="common_content_padding">2dp</dimen>
+
+    <!-- 05-mail match contact view-->
+    <dimen name="match_contact_view_title_margin_bottom">10dp</dimen>
+    <dimen name="match_contact_view_item_margin_bottom">5dp</dimen>
+
+    <!--05-mail card-->
+    <dimen name="mail_card_common_margin">24dp</dimen>
+    <dimen name="ml000_mail_button_padding">14dp</dimen>
+    <dimen name="mail_card_mail_type_margin_top">25dp</dimen>
+    <dimen name="mail_card_mail_name_margin_end">8dp</dimen>
+    <dimen name="mail_card_mail_name_margin_top">8dp</dimen>
+    <dimen name="mail_card_filter_title_margin_end">13dp</dimen>
+    <dimen name="mail_card_filter_title_margin_top">26dp</dimen>
+    <dimen name="mail_card_filter_image_width">14dp</dimen>
+    <dimen name="mail_card_filter_image_height">15.4dp</dimen>
+    <dimen name="mail_card_filter_image_margin_end">6dp</dimen>
+    <dimen name="mail_card_filter_image_margin_top">9dp</dimen>
+    <dimen name="mail_card_filter_image_margin_start">21dp</dimen>
+    <dimen name="mail_card_padding_top">24dp</dimen>
+    <dimen name="mail_card_guideline_path1">0.6667</dimen>
+    <dimen name="mail_card_guideline_path2">0.7097</dimen>
+    <dimen name="mail_card_divider_margin_top">18dp</dimen>
+    <dimen name="mail_card_contract_error_line_spacing">8dp</dimen>
+    <dimen name="mail_card_contract_error_margin_top">12dp</dimen>
+    <dimen name="mail_card_contract_error_container_margin_vertical">24dp</dimen>
+    <dimen name="hm001_s_mail_filter_des_margin_top">18dp</dimen>
+    <dimen name="hm001_mail_address_line_spacing_extra">7dp</dimen>
+    <!--05-mail-->
+    <dimen name="mail_common_text_huge_size">20dp</dimen>
+    <dimen name="mail_common_text_huge_size_ml002">18dp</dimen>
+    <dimen name="mail_common_text_huge_size_ml021">18dp</dimen>
+    <dimen name="mail_common_text_large_plus_size">17dp</dimen>
+    <dimen name="mail_common_text_pre_huge_size">18dp</dimen>
+    <dimen name="mail_common_text_large_size">16dp</dimen>
+    <dimen name="mail_common_text_large_size_change">14dp</dimen>
+    <dimen name="mail_common_text_small_size_suggest">12dp</dimen>
+    <dimen name="mail_common_text_pre_large_size">15dp</dimen>
+    <dimen name="mail_common_text_medium_size">16dp</dimen>
+    <dimen name="mail_common_text_medium_size_mail">14dp</dimen>
+    <dimen name="mail_common_text_medium_large_size">15dp</dimen>
+    <dimen name="mail_common_text_medium_large_size_ml021">17dp</dimen>
+    <dimen name="mail_common_text_pre_medium_size">13dp</dimen>
+    <dimen name="mail_common_text_small_size">12dp</dimen>
+    <dimen name="mail_common_divider_title_height">2dp</dimen>
+    <dimen name="mail_common_divider_title_margin_top">8dp</dimen>
+    <dimen name="mail_common_divider_item_height">1dp</dimen>
+    <dimen name="mail_common_divider_item_light_height">0.5dp</dimen>
+    <dimen name="mail_common_edittext_stroke_width">1dp</dimen>
+    <dimen name="mail_common_edit_text_cursor_width">1dp</dimen>
+    <dimen name="mail_common_shadow_height">8dp</dimen>
+    <dimen name="mail_common_text_spacing">5dp</dimen>
+    <dimen name="mll002_radio_check_box_radius">3dp</dimen>
+
+    <!--05-mail ml020-->
+    <dimen name="ml020_light_divider_height">1.5dp</dimen>
+    ​
+    ​
+    <dimen name="ml020_padding">24dp</dimen>​
+    <dimen name="ml020_title_margin_bottom">12dp</dimen>​
+    ​
+    <dimen name="ml020_setting_option_divider_height">0.5dp</dimen>​
+    <dimen name="ml020_container_margin_vertical">12dp</dimen>​
+    <dimen name="ml020_sub_title_margin_top">5dp</dimen>​
+    <!--05-mail ml021-->
+    <dimen name="ml021_edittext_height">48dp</dimen>
+    <dimen name="ml021_edittext_padding_horizontal">10dp</dimen>
+    <dimen name="ml021_detail_padding_vertical">16dp</dimen>
+    <dimen name="ml021_detail_address_margin_top_t">8dp</dimen>
+    <dimen name="ml021_description_text_margin_bottom">35dp</dimen>
+    <dimen name="ml021_description_text_margin_top">17dp</dimen>
+    <dimen name="ml021_button_change_height">48dp</dimen>
+    <dimen name="ml021_button_change_margin_bottom">35dp</dimen>
+    <dimen name="ml021_text_title_margin_top">21dp</dimen>
+    <dimen name="ml021_setting_title_margin_top">33dp</dimen>
+    <dimen name="ml021_edit_text_min_height">31dp</dimen>
+    <dimen name="ml021_domain_margin_top">12dp</dimen>
+    <dimen name="ml021_edit_text_margin_top">18dp</dimen>
+    <dimen name="ml021_item_description_margin_start">8dp</dimen>
+    <dimen name="ml021_item_description_padding">5dp</dimen>
+    <dimen name="ml021_text_size_normal">16dp</dimen>
+    <dimen name="ml021_text_size_small">12dp</dimen>
+    <dimen name="ml021_text_size_large">16dp</dimen>
+    <!--05-mail ml024-->
+    <dimen name="ml024_edittext_height">48dp</dimen>
+    <dimen name="ml024_edittext_padding_horizontal">10dp</dimen>
+    <dimen name="ml024_detail_padding_vertical">16dp</dimen>
+    <dimen name="ml024_detail_address_margin_top">11dp</dimen>
+    <dimen name="ml024_description_text_margin_bottom">35dp</dimen>
+    <dimen name="ml024_description_text_margin_top">17dp</dimen>
+    <dimen name="ml024_button_change_margin_left">14dp</dimen>
+    <dimen name="ml024_domain_margin_top">12dp</dimen>
+    <dimen name="ml024_edit_text_margin_top">18dp</dimen>
+    <dimen name="ml024_button_change_height">48dp</dimen>
+    <dimen name="ml024_button_change_margin_bottom">35dp</dimen>
+    <dimen name="ml024_text_title_margin_top">21dp</dimen>
+    <dimen name="ml024_edit_text_min_height">31dp</dimen>
+    <dimen name="ml024_margin_large">24dp</dimen>
+    <dimen name="ml024_text_size_small">12dp</dimen>
+    <dimen name="ml024_text_size_large">16dp</dimen>
+    <dimen name="ml024_setting_title_margin_top">21dp</dimen>
+    <!--05-mail ml027-->
+    <dimen name="ml027_padding">24dp</dimen>
+    <dimen name="ml027_title_margin_top">22dp</dimen>
+    <dimen name="ml027_content_margin_top">19.5dp</dimen>
+    <dimen name="ml027_button_padding_horizontal">48dp</dimen>
+    <dimen name="ml027_button_height">48dp</dimen>
+    <dimen name="ml027_button_margin_top">49dp</dimen>
+    <dimen name="ml027_ic_share_width">13.5dp</dimen>
+    <dimen name="ml027_ic_share_margin_end">26.3dp</dimen>
+    <!--05-mail ml008-->
+    <dimen name="ml008_text_size_large">16dp</dimen>
+    <dimen name="ml008_text_size_normal">16dp</dimen>
+    <dimen name="ml008_text_size_normal_header">14dp</dimen>
+    <dimen name="ml008_text_size_small">12dp</dimen>
+    <dimen name="ml008_margin_large">24dp</dimen>
+    <dimen name="ml008_btn_register_margin_top">36dp</dimen>
+    <dimen name="ml008_btn_register_margin_horizontal">14dp</dimen>
+    <dimen name="ml008_type_match_container_corner">24dp</dimen>
+    <dimen name="ml008_type_match_container_selected">3dp</dimen>
+    <dimen name="ml008_type_match_container_unselected">1dp</dimen>
+    <dimen name="ml008_title_input_name_margin_bottom">12dp</dimen>
+    <dimen name="ml008_error_text_margin_top">13dp</dimen>
+    <dimen name="ml008_advance_setting_margin_top">36dp</dimen>
+    <dimen name="ml008_advance_setting_option_margin_top">18dp</dimen>
+    <dimen name="ml008_advance_setting_option_container_margin_top">24dp</dimen>
+    <dimen name="ml008_advance_setting_option_radio_size">20dp</dimen>
+    <dimen name="ml008_advance_setting_option_radio_margin_edge">16dp</dimen>
+    <dimen name="ml008_advance_setting_option_radio_margin_edge_top">14dp</dimen>
+    <dimen name="ml008_advance_setting_option_radio_margin_end">12dp</dimen>
+    <dimen name="ml008_advance_setting_container_height">51dp</dimen>
+    <dimen name="ml008_advance_setting_separator_height">0.5dp</dimen>
+    <dimen name="ml008_more_setting_margin_top">36dp</dimen>
+    <dimen name="ml008_more_setting_checkbox_size">24dp</dimen>
+    <dimen name="ml008_more_setting_checkbox_margin_top">18dp</dimen>
+    <dimen name="ml008_more_setting_checkbox_margin_end">12dp</dimen>
+    <dimen name="ml008_more_setting_content_margin_top">16dp</dimen>
+    <dimen name="ml008_more_setting_content_text_size">14dp</dimen>
+    <dimen name="ml008_more_setting_margin_top_text">42dp</dimen>
+    <dimen name="ml008_iv_arrow_expand_size">20dp</dimen>
+    <dimen name="ml008_iv_arrow_expand_height_bottom">18dp</dimen>
+    <dimen name="ml008_button_height">48dp</dimen>
+    <dimen name="ml008_match_contact_view_margin_top">36dp</dimen>
+    <!--05-mail ml009-->
+    <dimen name="ml009_barcode_margin_bottom">37dp</dimen>
+    <dimen name="ml009_header_margin_top">40dp</dimen>
+    <dimen name="ml009_cancel_button_margin_top">32dp</dimen>
+    <dimen name="ml009_text_size_normal">14dp</dimen>
+    <dimen name="ml009_icon_edge_size">42dp</dimen>
+    <!--05-mail ml010-->
+    <dimen name="ml010_screen_padding">24dp</dimen>
+    <dimen name="ml010_btn_close_size">48dp</dimen>
+    <dimen name="ml010_btn_flash_size">34dp</dimen>
+    <dimen name="ml010_tv_scan_result_size">17dp</dimen>
+    <dimen name="ml010_tv_scan_result_margin_top">20dp</dimen>
+    <dimen name="ml010_title_scan_result_margin_top">36dp</dimen>
+    <dimen name="ml010_description_line_expand">5dp</dimen>
+    <dimen name="ml010_match_contact_view_margin_top">36dp</dimen>
+    <!--05-mail ml018-->
+    <dimen name="ml018_button_select_height">30dp</dimen>
+    <dimen name="ml018_button_select_min_width">92dp</dimen>
+    <dimen name="ml018_delete_button_height">48dp</dimen>
+    <dimen name="ml018_delete_button_margin_start">38dp</dimen>
+    <dimen name="ml018_count_view_container_height">50dp</dimen>
+    <dimen name="ml018_cb_margin_top">18.5dp</dimen>
+    <!--05-mail ml012-->
+    <!--05-mail ml000-->
+    <dimen name="ml000_spam_state_container_height">56dp</dimen>
+    <dimen name="ml000_spam_state_container_border_radius">4dp</dimen>
+    <dimen name="ml000_spam_state_container_border_width">1dp</dimen>
+    <dimen name="ml000_text_spam_mail_type_margin_end">14dp</dimen>
+    <dimen name="ml000_image_filter_spam_level_height">19.8dp</dimen>
+    <dimen name="ml000_image_filter_spam_level_width">18dp</dimen>
+    <dimen name="ml000_image_filter_spam_level_margin_end">8dp</dimen>
+    <dimen name="ml000_button_change_container_height">50dp</dimen>
+    <dimen name="ml000_mail_address_text_margin_bottom">10dp</dimen>
+    <dimen name="ml000_image_arrow_right_margin_end">4dp</dimen>
+    <dimen name="ml000_image_arrow_right_size">16dp</dimen>
+    <dimen name="ml000_image_warning_margin_end">12dp</dimen>
+    <dimen name="ml000_image_warning_size">19dp</dimen>
+    <dimen name="ml000_divider_margin_bottom">8dp</dimen>
+
+    <!--New ml000 -->
+    <dimen name="ml000_spam_state_container_padding">18dp</dimen>
+    <dimen name="ml000_spam_state_container_s_mail_title_margin_end">10dp</dimen>
+    <dimen name="ml000_spam_state_container_s_mail_address_margin_top">10dp</dimen>
+    <dimen name="ml000_spam_state_container_s_mail_des_margin_top">19dp</dimen>
+    <dimen name="ml000_spam_state_container_s_mail_title_margin_start">12dp</dimen>
+    <dimen name="ml000_spam_state_container_s_mail_title_margin_top">15dp</dimen>
+    <dimen name="ml000_button_margin_horizontal">38dp</dimen>
+    <dimen name="ml000_button_height">48dp</dimen>
+    <dimen name="ml000_button_change_address_margin_top">36dp</dimen>
+    <dimen name="ml000_button_change_filter_margin_top">24dp</dimen>
+    <dimen name="ml000_setting_title_margin_horizontal">24dp</dimen>
+    <dimen name="ml000_setting_title_margin_top">36dp</dimen>
+    <dimen name="ml000_mail_detail_bg_radius">12dp</dimen>
+    <dimen name="ml000_mail_detail_s_mail_des_margin_end">10dp</dimen>
+    <dimen name="ml000_segment_status_margin_top_segment">8dp</dimen>
+    <dimen name="ml000_segment_status_height">20dp</dimen>
+    <dimen name="ml000_mail_detail_e_mail_margin_top">28dp</dimen>
+    <dimen name="ml000_mail_detail_e_mail_description_margin_end">10dp</dimen>
+    <dimen name="ml000_mail_detail_e_mail_description_margin_bottom">16dp</dimen>
+    <dimen name="ml000_mail_detail_mail_individual_margin_top">21dp</dimen>
+    <dimen name="ml000_mail_detail_mail_description_individual_margin_end">10dp</dimen>
+    <dimen name="ml000_mail_detail_mail_description_individual_margin_bottom">24dp</dimen>
+    <dimen name="ml000_mail_width">150dp</dimen>
+    <dimen name="ml000_envelope_back_card_padding_top">10dp</dimen>
+    <dimen name="ml000_envelope_flap_container_height">150dp</dimen>
+    <dimen name="ml000_flap_open_height">57dp</dimen>
+    <dimen name="ml000_flap_open_margin_bottom">10dp</dimen>
+    <dimen name="ml000_flap_close_height">65dp</dimen>
+    <dimen name="ml000_flap_close_margin_top">48dp</dimen>
+    <dimen name="ml000_im_mms_width">140dp</dimen>
+    <dimen name="ml000_im_mms_height">100dp</dimen>
+    <dimen name="ml000_im_email_margin_top">30dp</dimen>
+    <dimen name="ml000_envelope_front_card_width">150dp</dimen>
+    <dimen name="ml000_envelope_front_card_height">150dp</dimen>
+    <dimen name="ml000_flap_open_front_margin_bottom">12dp</dimen>
+    <dimen name="ml000_envelope_bottom_part_height">65dp</dimen>
+    <dimen name="ml000_flap_close_front_height">65dp</dimen>
+    <dimen name="ml000_flap_close_front_margin_top">45dp</dimen>
+    <dimen name="ml000_envelope_back_card_height">70dp</dimen>
+    <dimen name="ml000_envelope_back_card_margin_top">49dp</dimen>
+
+    <!--New ml000_4 -->
+    <dimen name="ml000_4_padding">24dp</dimen>
+    <dimen name="ml000_4_padding_bottom">36dp</dimen>
+    <dimen name="ml000_4_address_s_mail_margin_top">8dp</dimen>
+    <dimen name="ml000_4_mail_description_margin_top">18dp</dimen>
+    <dimen name="ml000_4_button_height">48dp</dimen>
+    <dimen name="ml000_4_button_margin_start">14dp</dimen>
+    <dimen name="ml000_4_button_margin_top">36dp</dimen>
+    <dimen name="ml000_4_divider_space">48dp</dimen>
+    <!-- 05-mail ml002 -->
+    <dimen name="ml002_container_margin_start">24dp</dimen>
+    <dimen name="ml002_container_margin_top">10dp</dimen>
+    <dimen name="ml002_check_box_together_width">24dp</dimen>
+    <dimen name="ml002_check_box_des_margin_start">12dp</dimen>
+    <dimen name="ml002_title_mail_margin_top">21dp</dimen>
+    <dimen name="ml002_title_email_margin_top">30dp</dimen>
+    <dimen name="ml002_group_mail_gone_margin_top">36dp</dimen>
+    <dimen name="ml002_common_radio_padding_horizontal">16dp</dimen>
+    <dimen name="ml002_common_radio_width">24dp</dimen>
+    <dimen name="ml002_check_box_recommended_margin_start">20dp</dimen>
+    <dimen name="ml002_check_box_recommended_padding_horizontal">4dp</dimen>
+    <dimen name="ml002_check_box_recommended_padding_horizontal_top_bottom">3dp</dimen>
+    <dimen name="ml002_common_check_box_des_margin_start">12dp</dimen>
+    <dimen name="ml002_common_check_box_min_width">200dp</dimen>
+    <dimen name="ml002_common_check_box_height">48dp</dimen>
+    <dimen name="ml002_title_margin_top">33dp</dimen>
+    <dimen name="ml002_ic_info_width">17dp</dimen>
+    <dimen name="ml002_ic_info_margin_start">7dp</dimen>
+    <dimen name="ml002_radio_group_margin_top">38dp</dimen>
+    <dimen name="ml002_radio_group_margin_top_ios">17dp</dimen>
+    <dimen name="ml002_radio_box_margin_top">18dp</dimen>
+    <dimen name="ml002_button_change_height">48dp</dimen>
+    <dimen name="ml002_button_change_margin_top">36dp</dimen>
+    <dimen name="ml002_dialog_padding_top">24dp</dimen>
+    <dimen name="ml002_dialog_height_bottom_close">52dp</dimen>
+    <dimen name="ml002_dialog_padding_bottom_close">8dp</dimen>
+    <dimen name="ml002_dialog_padding_content_bottom_close">8dp</dimen>
+    <!--<dimen name="ml002_dialog_padding_start">24dp</dimen>-->
+    <dimen name="ml002_dialog_padding_start_change">40dp</dimen>
+    <dimen name="ml002_dialog_padding_bottom">14dp</dimen>
+    <dimen name="ml002_dialog_top_content">12dp</dimen>
+    <dimen name="ml002_dialog_header_size">18dp</dimen>
+    <dimen name="ml002_dialog_header_1">26dp</dimen>
+    <dimen name="ml002_dialog_middle_content">16dp</dimen>
+    <dimen name="ml002_dialog_header_2">27dp</dimen>
+    <dimen name="ml002_dialog_bottom_content">14dp</dimen>
+    <dimen name="ml002_dialog_divider_margin_top">30dp</dimen>
+    <dimen name="ml002_dialog_close_btn_margin_top">13dp</dimen>
+    <dimen name="ml002_dialog_radius">24dp</dimen>
+    <dimen name="ml002_dialog_radius_change">12dp</dimen>
+    <dimen name="ml002_email_checkbox_container_height">50dp</dimen>
+
+    <!-- 05-mail ml007 -->
+    <dimen name="ml007_padding">24dp</dimen>
+    <dimen name="ml007_mail_search_height">48dp</dimen>
+    <dimen name="ml007_mail_search_margin_top">36dp</dimen>
+    <dimen name="ml007_register_button_height">48dp</dimen>
+    <dimen name="ml007_textview_button_height_padding">18dp</dimen>
+    <dimen name="ml007_textview_padding">1dp</dimen>
+    <dimen name="ml007_register_button_margin_horizontal">38dp</dimen>
+    <dimen name="ml007_search_view_edit_text_search_icon">15.5dp</dimen>
+    <dimen name="ml007_search_view_edit_text_padding">36dp</dimen>
+    <dimen name="ml007_search_view_icon_margin">10dp</dimen>
+    <dimen name="ml007_search_view_edit_text_cancel_icon">20.02dp</dimen>
+    <dimen name="ml007_contact_item_padding_horizontal">24dp</dimen>
+    <dimen name="ml007_contact_item_height">51dp</dimen>
+    <dimen name="ml007_contact_item_checkbox">24dp</dimen>
+    <dimen name="ml007_contact_item_tv_margin_horizontal">12dp</dimen>
+    <dimen name="ml007_contact_item_iv_arrow_margin_end">4.5dp</dimen>
+    <dimen name="ml007_contact_item_header_padding_horizontal">24dp</dimen>
+    <dimen name="ml007_contact_item_header_height">58dp</dimen>
+    <dimen name="ml007_contact_item_header_tv_margin_bottom">10dp</dimen>
+    <dimen name="ml007_detail_contact_item_padding_end">24dp</dimen>
+    <dimen name="ml007_detail_contact_item_check_box">24dp</dimen>
+    <dimen name="ml007_detail_contact_item_tv_margin_start">12dp</dimen>
+    <dimen name="ml007_over_header_height">58dp</dimen>
+    <dimen name="ml007_over_header_padding_bottom">10dp</dimen>
+    <dimen name="ml007_over_header_padding_end">24dp</dimen>
+    <dimen name="ml007_over_header_padding_start">24dp</dimen>
+    <dimen name="ml007_button_all_background_radius">15dp</dimen>
+    <dimen name="ml007_button_all_width">92dp</dimen>
+    <dimen name="ml007_button_all_height">30dp</dimen>
+    <dimen name="ml007_detail_item_height">56dp</dimen>
+    <dimen name="ml007_top_container_margin_bottom">5dp</dimen>
+    <dimen name="ml007_top_container_height">50dp</dimen>
+    <dimen name="ml007_register_container_height">96dp</dimen>
+
+    <!-- ML-015-->
+    <dimen name="ml015_button_select_height">30dp</dimen>
+    <dimen name="ml015_button_select_min_width">92dp</dimen>
+    <dimen name="ml015_text_view_count_padding_horizontal">24dp</dimen>
+    <dimen name="ml015_button_height">48dp</dimen>
+    <dimen name="ml015_button_select_margin_top">10dp</dimen>
+    <dimen name="ml015_btn_register_margin_start">38dp</dimen>
+    <dimen name="ml015_item_sub_name_margin_top">6dp</dimen>
+    <dimen name="ml015_item_time_margin_top">7dp</dimen>
+    <dimen name="ml015_item_padding_vertical">19dp</dimen>
+    <dimen name="ml015_item_padding_horizontal">24dp</dimen>
+    <dimen name="ml015_item_tv_padding_horizontal">12dp</dimen>
+    <dimen name="ml015_item_check_box">24dp</dimen>
+    <dimen name="ml015_item_check_box_margin_top">18dp</dimen>
+
+    <!--05-mail ml004-->
+    <dimen name="ml004_common_margin">24dp</dimen>
+    <dimen name="ml004_text_description_margin_top">36dp</dimen>
+    <dimen name="ml004_image_mail_width">47.73dp</dimen>
+    <dimen name="ml004_image_mail_height">33.6dp</dimen>
+    <dimen name="ml004_image_mail_margin_top">36dp</dimen>
+    <dimen name="ml004_image_permit_width">28.88dp</dimen>
+    <dimen name="ml004_image_permit_height">29.28dp</dimen>
+    <dimen name="ml004_image_permit_margin_start">31dp</dimen>
+    <dimen name="ml004_image_permit_margin_top">13dp</dimen>
+    <dimen name="ml004_contact_item_height">65dp</dimen>
+    <dimen name="ml004_contact_item_description_margin_top">4dp</dimen>
+    <dimen name="ml004_contact_item_image_mail_width">25dp</dimen>
+    <dimen name="ml004_contact_item_image_mail_height">17dp</dimen>
+    <dimen name="ml004_contact_item_image_arrow_width">12.8dp</dimen>
+    <dimen name="ml004_contact_item_image_arrow_height">6.3dp</dimen>
+    <dimen name="ml004_contact_item_image_arrow_margin_end">4.7dp</dimen>
+    <dimen name="ml004_contact_item_content_margin_horizontal">5dp</dimen>
+    <dimen name="ml004_detail_contact_item_height">56dp</dimen>
+    <dimen name="ml004_detail_contact_content_margin_start">60dp</dimen>
+    <dimen name="ml004_detail_contact_item_divider_margin_start">48dp</dimen>
+    <dimen name="ml004_header_action_button_size">36dp</dimen>
+    <dimen name="ml004_header_action_padding_start">0dp</dimen>
+    <dimen name="ml004_header_action_padding_end">8dp</dimen>
+    <dimen name="ml004_icon_arrow_right_size">17dp</dimen>
+    <dimen name="ml004_item_text_content_space">5dp</dimen>
+    <dimen name="ml004_item_container_margin_vertical">18dp</dimen>
+    <dimen name="ml004_item_icon_indicator_margin_start">8dp</dimen>
+
+    <!--05-mail list setting view-->
+    <dimen name="mail_setting_view_text_warning_margin_top">18dp</dimen>
+    <dimen name="mail_setting_view_text_warning_padding">12dp</dimen>
+    <dimen name="mail_setting_view_text_content_margin_vertical">10dp</dimen>
+    <dimen name="mail_setting_view_action_container_height">50dp</dimen>
+    <dimen name="mail_setting_view_action_container_padding_start">24dp</dimen>
+    <dimen name="mail_setting_view_action_container_padding_end">12dp</dimen>
+    <dimen name="mail_setting_view_action_size">48dp</dimen>
+    <dimen name="mail_setting_view_action_icon_size">15dp</dimen>
+    <dimen name="mail_setting_view_action_icon_margin_bottom">2dp</dimen>
+
+    <!--06-notify-->
+    <dimen name="notify_common_text_large_size">16dp</dimen>
+    <dimen name="notify_common_text_medium_size">14dp</dimen>
+    <dimen name="notify_common_text_small_size">12dp</dimen>
+    <dimen name="sb06_notification_text_small_size">12dp</dimen>
+    <dimen name="sb06_notification_text_normal_size">14dp</dimen>
+    <dimen name="sb06_notification_text_large_size">16dp</dimen>
+    <dimen name="sb06_notification_text_huge_size">18dp</dimen>
+    <!--06-notify if000-->
+    <dimen name="if000_rv_padding_horizontal">12dp</dimen>
+    <dimen name="if000_selected_indicator_height">2dp</dimen>
+    <dimen name="if000_unselected_indicator_height">1dp</dimen>
+    <dimen name="if000_tab_bar_height">35dp</dimen>
+    <dimen name="if000_tab_bar_margin_horizontal">12dp</dimen>
+    <dimen name="if000_tab_bar_margin_top">15dp</dimen>
+    <dimen name="if000_tab_item_padding_bottom">9dp</dimen>
+    <dimen name="if000_ic_list_mode_size">17dp</dimen>
+    <dimen name="if000_ic_list_mode_margin">16dp</dimen>
+    <dimen name="if000_ic_list_margin_start">4dp</dimen>
+    <dimen name="if000_favorite_mode_container_height">30dp</dimen>
+    <dimen name="if000_favorite_mode_container_margin">20dp</dimen>
+    <dimen name="if000_favorite_mode_container_margin_end">12dp</dimen>
+    <dimen name="if000_favorite_mode_container_padding_end">11dp</dimen>
+    <dimen name="if000_favorite_mode_container_padding_start">12dp</dimen>
+    <dimen name="if000_ic_favorite_mode_size">12dp</dimen>
+    <dimen name="if000_text_favorite_mode_margin_start">5dp</dimen>
+    <dimen name="if000_unread_mode_container_height">30dp</dimen>
+    <dimen name="if000_unread_mode_container_margin_end">12dp</dimen>
+    <dimen name="if000_unread_mode_container_margin_top">20dp</dimen>
+    <dimen name="if000_unread_mode_container_padding_end">11dp</dimen>
+    <dimen name="if000_unread_mode_container_padding_start">14dp</dimen>
+    <dimen name="if000_ic_unread_mode_size">10dp</dimen>
+    <dimen name="if000_ic_red_dot_size">6dp</dimen>
+    <dimen name="if000_ic_red_dot_margin_top">-3dp</dimen>
+    <dimen name="if000_ic_red_dot_margin_end">-2dp</dimen>
+    <dimen name="if000_text_red_dot_margin_start">7dp</dimen>
+    <dimen name="if000_top_control_padding_bottom">7.5dp</dimen>
+    <dimen name="if000_mode_background_corner_radius">15dp</dimen>
+    <dimen name="if000_container_loading_margin_top">102dp</dimen>
+    <dimen name="if000_button_important_stroke_width">0.5dp</dimen>
+    <dimen name="if000_icon_loading_error_padding">6dp</dimen>
+    <dimen name="if000_icon_loading_error_size">20dp</dimen>
+    <dimen name="if000_iv_favorite_size">18dp</dimen>
+    <dimen name="if000_iv_favorite_animation_size">36dp</dimen>
+    <dimen name="if000_notification_imv_border_size">0.5dp</dimen>
+    <!--06-notify if001-->
+    <dimen name="if01_cv_main_constraint_layout_margin_vertical">10dp</dimen>
+    <dimen name="if01_cv_main_constraint_layout_margin_end">34dp</dimen>
+    <dimen name="if01_cv_vertical_radius">20dp</dimen>
+    <dimen name="if01_cv_image_vertical_radius">10dp</dimen>
+    <dimen name="if01_cv_vertical_padding_bottom">12dp</dimen>
+    <dimen name="if01_cv_vertical_red_dot">8dp</dimen>
+    <dimen name="if01_cv_vertical_red_dot_margin">10dp</dimen>
+    <dimen name="if01_cv_vertical_important_stick_height">19dp</dimen>
+    <dimen name="if01_cv_vertical_important_stick_padding_horizontal">6dp</dimen>
+    <dimen name="if01_cv_vertical_important_stick_margin_start">12dp</dimen>
+    <dimen name="if01_cv_vertical_important_stick_margin_top">12dp</dimen>
+    <dimen name="if01_cv_vertical_important_stick_radius">3dp</dimen>
+    <dimen name="if01_cv_vertical_title_margin_end">6dp</dimen>
+    <dimen name="if01_cv_vertical_title_margin_start">12dp</dimen>
+    <dimen name="if01_cv_vertical_title_margin_top">10dp</dimen>
+    <dimen name="if01_cv_vertical_title_margin_gone_top">14.5dp</dimen>
+    <dimen name="if01_cv_vertical_text_new_margin_bottom">1dp</dimen>
+    <dimen name="if01_cv_vertical_text_new_margin_start">12dp</dimen>
+    <dimen name="if01_cv_vertical_text_new_margin_top">10dp</dimen>
+    <dimen name="if01_cv_vertical_text_time_margin_start">12dp</dimen>
+    <dimen name="if01_cv_vertical_text_time_gone_margin_top">10dp</dimen>
+    <dimen name="if01_cv_vertical_url_size">13.5dp</dimen>
+    <dimen name="if01_cv_vertical_url_margin_end">4.3dp</dimen>
+    <dimen name="if01_cv_vertical_url_margin_bottom">1dp</dimen>
+    <dimen name="if01_cv_horizontal_image_size">80dp</dimen>
+    <dimen name="if01_cv_horizontal_image_margin">10dp</dimen>
+    <dimen name="if01_cv_horizontal_text_new_margin_top">4dp</dimen>
+    <dimen name="if01_cv_horizontal_text_time_margin_top">4dp</dimen>
+    <dimen name="if01_cv_horizontal_text_time_margin_start">8dp</dimen>
+    <dimen name="if01_cv_horizontal_title_margin_start">10dp</dimen>
+    <dimen name="if01_cv_horizontal_title_margin_top">6dp</dimen>
+    <dimen name="if01_cv_horizontal_url_margin_bottom">12.3dp</dimen>
+    <dimen name="if01_cv_horizontal_url_margin_end">9dp</dimen>
+    <dimen name="if01_cv_horizontal_red_dot_margin">15dp</dimen>
+    <dimen name="if01_cv_margin_horizontal">5dp</dimen>
+    <dimen name="if01_cv_margin_bottom">8dp</dimen>
+    <dimen name="if01_cv_horizontal_margin_horizontal">7dp</dimen>
+    <dimen name="if01_cv_horizontal_margin_bottom">0dp</dimen>
+    <dimen name="if01_load_more_text_padding_vertical">46dp</dimen>
+    <!--06-notify if014-->
+    <dimen name="if014_title_line_spacing">5dp</dimen>
+    <dimen name="if014_content_line_spacing">8dp</dimen>
+    <dimen name="if014_item_header_padding_horizontal">24dp</dimen>
+    <dimen name="if014_item_header_title_margin_top">7dp</dimen>
+    <dimen name="if014_item_header_time_margin_top">15dp</dimen>
+    <dimen name="if014_item_header_tv_content_margin_top">36dp</dimen>
+    <dimen name="if014_item_header_url_button_margin_top">38dp</dimen>
+    <dimen name="if014_item_header_url_button_margin_horizontal">14dp</dimen>
+    <dimen name="if014_item_header_url_button_height">48dp</dimen>
+    <dimen name="if014_item_header_ic_url_margin_end">16.3dp</dimen>
+    <dimen name="if014_item_customize_title_padding_horizontal">24dp</dimen>
+    <dimen name="if014_item_customize_title_margin_bottom">30dp</dimen>
+    <dimen name="if014_item_customize_title_line_height">2dp</dimen>
+    <dimen name="if014_item_customize_title_line_margin_top">6dp</dimen>
+    <dimen name="if014_item_customize_image_padding_horizontal">24dp</dimen>
+    <dimen name="if014_item_customize_image_margin_bottom">24dp</dimen>
+    <dimen name="if014_item_customize_image_title_margin_top">12dp</dimen>
+    <dimen name="if014_item_customize_description_padding_horizontal">24dp</dimen>
+    <dimen name="if014_item_customize_description_margin_bottom">24dp</dimen>
+    <dimen name="if014_item_customize_content_padding_horizontal">24dp</dimen>
+    <dimen name="if014_item_customize_content_margin_bottom">23dp</dimen>
+    <dimen name="if014_item_customize_button_padding_horizontal">38dp</dimen>
+    <dimen name="if014_item_customize_button_height">48dp</dimen>
+    <dimen name="if014_item_customize_button_ic_url_margin_end">16.3dp</dimen>
+    <dimen name="if014_item_link_padding_horizontal">24dp</dimen>
+    <dimen name="if014_item_link_divider_height">1dp</dimen>
+    <dimen name="if014_item_link_des_margin_top">16dp</dimen>
+    <dimen name="if014_item_link_tv_link_margin_top">7dp</dimen>
+    <dimen name="if014_item_link_direct_margin_start">6dp</dimen>
+    <dimen name="if014_item_link_bottom_divider_margin_top">18dp</dimen>
+    <dimen name="if014_item_notice_margin_bottom">48dp</dimen>
+    <dimen name="if014_item_notice_margin_horizontal">12dp</dimen>
+    <dimen name="if014_item_notice_padding_horizontal">30dp</dimen>
+    <dimen name="if014_item_notice_padding_vertical">21dp</dimen>
+    <dimen name="if014_item_notice_margin_header">22dp</dimen>
+    <dimen name="if014_rv_padding_bottom">36dp</dimen>
+    <!--06-notify modal-->
+    <dimen name="notify_modal_normal_margin">24dp</dimen>
+    <dimen name="notify_modal_dialog_image_margin_bottom">18dp</dimen>
+    <dimen name="notify_modal_dialog_body_margin_top">23dp</dimen>
+    <dimen name="notify_modal_dialog_button_padding_bottom">18dp</dimen>
+    <dimen name="notify_modal_dialog_button_height">48dp</dimen>
+    <!--06-notify home-->
+    <dimen name="notify_home_card_radius_corner">24dp</dimen>
+    <!--06-notify modal dialog-->
+    <dimen name="modal_dialog_title_height">60dp</dimen>
+    <dimen name="modal_dialog_close_button_height">24dp</dimen>
+    <dimen name="modal_dialog_close_button_margin_bottom">24dp</dimen>
+    <dimen name="modal_dialog_rv_padding_bottom">48dp</dimen>
+    <dimen name="modal_dialog_margin_vertical">32dp</dimen>
+    <dimen name="modal_dialog_margin_horizontal">24dp</dimen>
+    <dimen name="modal_dialog_text_spacing">8dp</dimen>
+    <dimen name="model_dialog_background_radius">12dp</dimen>
+
+    <!-- 07_todo common-->
+    <dimen name="sb07todo_button_height">48dp</dimen>
+    <!-- 07_todo TD-000-->
+    <dimen name="td000_title_margin_top">134dp</dimen>
+    <dimen name="td000_title_text_size">18dp</dimen>
+    <dimen name="td000_intro_margin_top">22dp</dimen>
+    <dimen name="td000_intro_text_size">14dp</dimen>
+    <!-- 07_todo TD-001-->
+    <dimen name="td001_text_size_title">18dp</dimen>
+    <dimen name="td001_text_size_16">16dp</dimen>
+    <dimen name="td001_text_size_normal">14dp</dimen>
+    <dimen name="td001_margin_normal">24dp</dimen>
+    <dimen name="td001_margin_rv">26dp</dimen>
+    <dimen name="td001_line_spacing">8dp</dimen>
+    <!-- 07_todo TD-002-->
+    <dimen name="td002_title_margin_top">100dp</dimen>
+    <dimen name="td002_margin_explanatory_top">10dp</dimen>
+    <dimen name="td002_margin_yahoo_top">24dp</dimen>
+    <dimen name="td002_margin_complete_top">28dp</dimen>
+    <dimen name="td002_margin_start">48dp</dimen>
+    <dimen name="td002_content_margin">10dp</dimen>
+    <dimen name="td002_text_size_explanatory">18dp</dimen>
+    <dimen name="td002_text_size_yahoo">14dp</dimen>
+    <dimen name="td002_item_t_point_padding">24dp</dimen>
+    <dimen name="td002_ic_item_t_point_width">28dp</dimen>
+    <dimen name="td002_ic_item_t_point_height">30dp</dimen>
+    <dimen name="td002_label_item_t_point_margin_start">8dp</dimen>
+    <dimen name="td002_item_t_point_text_size_18">18dp</dimen>
+    <dimen name="td002_content_item_t_point_margin_top">12dp</dimen>
+    <dimen name="td002_item_t_point_text_size_14">14dp</dimen>
+    <dimen name="td002_item_t_point_line_spacing_11">8dp</dimen>
+    <dimen name="td002_value_point_padding">18dp</dimen>
+    <dimen name="td002_value_point_padding_start">33dp</dimen>
+    <dimen name="td002_item_t_point_text_size_12">12dp</dimen>
+    <!-- 07_todo TD-008-->
+    <dimen name="td008_button_height">48dp</dimen>
+    <dimen name="td008_button_margin_start">38dp</dimen>
+    <dimen name="td008_button_margin_bottom">72dp</dimen>
+    <dimen name="td008_button_margin_top">36dp</dimen>
+    <dimen name="td008_button_small_margin_top">12dp</dimen>
+    <dimen name="td008_text_size_button">16dp</dimen>
+    <dimen name="td008_item_text_padding">24dp</dimen>
+    <dimen name="td008_item_password_width">42dp</dimen>
+    <dimen name="td008_item_password_height">31dp</dimen>
+    <dimen name="td008_item_text_size_12">12dp</dimen>
+    <dimen name="td008_ic_margin_top">8dp</dimen>
+    <dimen name="td008_item_line_spacing_9">6dp</dimen>
+    <dimen name="td008_item_name_width">60dp</dimen>
+    <dimen name="td008_item_member_width">33dp</dimen>
+    <dimen name="td008_item_member_height">41dp</dimen>
+    <dimen name="td008_item_card_info_height">34dp</dimen>
+    <dimen name="td008_item_header_margin_bottom">18dp</dimen>
+    <dimen name="td008_title_header_margin_bottom">12dp</dimen>
+    <dimen name="td008_item_header_text_size">18dp</dimen>
+    <dimen name="td008_note_margin_end">6dp</dimen>
+    <dimen name="td008_line_margin">18dp</dimen>
+    <dimen name="td008_item_line_spacing_11">8dp</dimen>
+    <dimen name="td008_item_text_size_14">14dp</dimen>
+    <!-- 07_todo TD-019-->
+    <dimen name="td019_item_padding">24dp</dimen>
+    <dimen name="td019_item_padding_12">12dp</dimen>
+    <dimen name="td019_line_spacing_11">8dp</dimen>
+    <dimen name="td019_text_size_14">14dp</dimen>
+    <dimen name="td019_ic_item_benefit_width">54dp</dimen>
+    <dimen name="td019_text_size_12">12dp</dimen>
+    <dimen name="td019_text_size_18">18dp</dimen>
+    <dimen name="td019_item_padding_18">18dp</dimen>
+    <dimen name="td019_text_size_34">34dp</dimen>
+    <dimen name="td019_item_point_margin_top">10dp</dimen>
+    <dimen name="td019_item_point_margin_bottom">7dp</dimen>
+    <dimen name="td019_ic_point_width">32dp</dimen>
+    <dimen name="td019_ic_point_height">40dp</dimen>
+    <dimen name="td019_ic_margin">10dp</dimen>
+    <dimen name="td019_note_item_point_1_margin_top">12dp</dimen>
+    <dimen name="td019_footer_padding">24dp</dimen>
+    <dimen name="td019_footer_padding_bottom">72dp</dimen>
+    <dimen name="td019_item_padding_36">36dp</dimen>
+    <dimen name="td019_ic_point_2_width">111dp</dimen>
+    <dimen name="td019_ic_point_2_height">20dp</dimen>
+    <dimen name="td019_text_point_margin_start">8dp</dimen>
+    <dimen name="td019_item_margin_top_14">14dp</dimen>
+    <dimen name="td019_text_or_margin_start">19dp</dimen>
+    <dimen name="td019_text_or_margin_end">31dp</dimen>
+    <dimen name="td019_ic_margin_bottom">4dp</dimen>
+    <dimen name="td019_item_benefit_radius">4dp</dimen>
+    <dimen name="td019_item_benefit_content_margin_top">8dp</dimen>
+    <dimen name="td019_title_period_fix_point_margin_end">5dp</dimen>
+
+    <!-- SBButton -->
+    <dimen name="sb_button_radius">24dp</dimen>
+    <dimen name="sb_button_large_radius">24dp</dimen>
+    <dimen name="sb_button_stroke_width">1dp</dimen>
+
+    <!--Plan HM001-->
+    <dimen name="hm001_text_size_title_next_period">14dp</dimen>
+    <dimen name="hm001_text_size_time_next_period">16dp</dimen>
+    <dimen name="hm001_heigh_decoration">0.5dp</dimen>
+    <dimen name="hm001_padding_user_plan">24dp</dimen>
+    <dimen name="hm001_text_size_time_user_plan">30dp</dimen>
+    <dimen name="hm001_text_size_title_long_term">12dp</dimen>
+    <dimen name="hm001_heigh_icon_long_term">17dp</dimen>
+    <dimen name="hm001_radius_bg_long_term">11dp</dimen>
+    <dimen name="hm001_padding_start_long_term">10dp</dimen>
+    <dimen name="hm001_padding_top_long_term">4dp</dimen>
+    <dimen name="hm001_margin_top_decoration">18dp</dimen>
+    <dimen name="hm001_margin_top_long_term">8dp</dimen>
+    <dimen name="hm001_margin_end_period">6dp</dimen>
+
+    <!--DATA HM001-->
+    <dimen name="hm001_text_number_data">21dp</dimen>
+    <dimen name="hm001_line_margin_top">6.5dp</dimen>
+    <dimen name="hm001_space_line">7.5dp</dimen>
+    <dimen name="hm001_text_margin_description">9dp</dimen>
+    <dimen name="hm001_text_margin_number_day">4dp</dimen>
+    <dimen name="hm001_text_margin_number_data">8dp</dimen>
+    <dimen name="hm001_text_margin_msn">24dp</dimen>
+    <dimen name="hm001_text_margin_line">26dp</dimen>
+    <dimen name="hm001_text_margin_first_msn">22dp</dimen>
+    <dimen name="hm001_text_last_msn">12dp</dimen>
+    <dimen name="hm001_margin_data_line">16dp</dimen>
+    <dimen name="hm001_margin_circle_data_with_icon">3dp</dimen>
+    <dimen name="dt000_margin_circle_text_data">35dp</dimen>
+    <dimen name="dt000_view_add_more_data_height">38dp</dimen>
+    <dimen name="hm001_text_size_gb">13dp</dimen>
+    <dimen name="hm001_margin_line">10dp</dimen>
+    <dimen name="hm001_item_margin_top_name">18dp</dimen>
+    <dimen name="hm001_text_item_margin">8dp</dimen>
+    <dimen name="hm001_align_top">6dp</dimen>
+    <dimen name="hm001_installment_text_margin">8dp</dimen>
+    <dimen name="hm001_text_size">14dp</dimen>
+    <dimen name="hm001_margin_top_installment">10dp</dimen>
+    <dimen name="hm001_text_size_remaining_amount">16dp</dimen>
+    <dimen name="hm001_text_size_device_contract">14dp</dimen>
+    <dimen name="hm001_text_size_remaning">30dp</dimen>
+    <dimen name="hm001_text_description">18dp</dimen>
+    <dimen name="hm001_width_device_plan">50dp</dimen>
+    <dimen name="hm001_top_decoration_contract">18dp</dimen>
+    <dimen name="hm001_line_height">22dp</dimen>
+    <dimen name="hm001_height_installment_view">25dp</dimen>
+    <dimen name="hm001_digit_height_onion">29dp</dimen>
+    <dimen name="hm001_height_onion">28dp</dimen>
+    <dimen name="hm001_height_onion_min">56dp</dimen>
+    <dimen name="hm001_plan_installment_middle_percent">0.032</dimen>
+    <dimen name="hm001_plan_installment_image_right_separator_percent">0.048</dimen>
+    <dimen name="hm001_plan_installment_contract_only_middle_percent">0.032</dimen>
+
+    <dimen name="dt001_margin_text_communication">40dp</dimen>
+    <dimen name="dt000_width_line">210dp</dimen>
+    <dimen name="dt000_height_onion_min">300dp</dimen>
+    <dimen name="dt000_value_onion_min">30dp</dimen>
+    <dimen name="dt000_value_x_onion_min">12dp</dimen>
+    <!-- Web View -->
+    <dimen name="charge_header_margin_bottom">13dp</dimen>
+    <dimen name="charge_header_margin_top">2dp</dimen>
+    <dimen name="charge_header_padding_top">10dp</dimen>
+    <dimen name="charge_viewpager_margintop">12dp</dimen>
+    <dimen name="charge_view_divided">1dp</dimen>
+    <dimen name="charge_btn_ball_marginleft">12dp</dimen>
+    <dimen name="charge_textview_month_margin_left_right">23dp</dimen>
+    <dimen name="charge_totalamount_margin_left">21dp</dimen>
+
+    <!-- HM000NotifyView -->
+    <dimen name="hm000_notify_view_width_imv">12dp</dimen>
+    <dimen name="hm000_notify_view_height_imv">18dp</dimen>
+    <dimen name="hm000_notify_view_margin_top">22dp</dimen>
+    <dimen name="hm000_notify_view_size_text_top">14dp</dimen>
+    <dimen name="hm000_notify_view_size_text_bottom">12dp</dimen>
+    <dimen name="hm000_notify_view_tv_margin_top">20dp</dimen>
+    <dimen name="hm000_notify_view_tv_margin_end">36dp</dimen>
+    <dimen name="hm000_notify_view_height_button_check">40dp</dimen>
+    <dimen name="hm000_notify_button_height_text">48dp</dimen>
+
+    <!-- 16_home -->
+    <dimen name="menu_screen_tv_margin_top">20dp</dimen>
+    <dimen name="menu_screen_tv_height">32dp</dimen>
+    <dimen name="menu_screen_tv_text_size">16dp</dimen>
+    <dimen name="menu_screen_item_tv_margin_top">36dp</dimen>
+    <dimen name="menu_screen_imv_size">48dp</dimen>
+    <dimen name="hm000_margin_top">8dp</dimen>
+    <dimen name="ag000_padding">24dp</dimen>
+    <dimen name="ag000_padding_change">40dp</dimen>
+    <dimen name="ag000_padding_bottom_new">24dp</dimen>
+    <dimen name="ag000_padding_footer">6dp</dimen>
+    <dimen name="ag000_padding_top">18dp</dimen>
+    <dimen name="ag000_textsize_12">12dp</dimen>
+    <dimen name="hm001_title_text_size">16dp</dimen>
+    <dimen name="hm001_tv_data_plan_title_magin">24dp</dimen>
+    <dimen name="hm001_tv_data_plan_margin">8dp</dimen>
+    <dimen name="hm001_margin_decoration_view">18dp</dimen>
+    <dimen name="hm001_height_decoration_view">0.5dp</dimen>
+    <dimen name="hm001_content_text_size">14dp</dimen>
+    <dimen name="ag000_renewal_period_text_size">14dp</dimen>
+    <dimen name="ag000_spacing_extra">8dp</dimen>
+    <dimen name="ag000_tv_data_plan_margin_top">45dp</dimen>
+    <dimen name="ag000_view_separator_margin_top">10dp</dimen>
+    <dimen name="ag000_view_data_margin_top">16dp</dimen>
+    <dimen name="ag000_share_data_margin_top">8dp</dimen>
+    <dimen name="ag000_tv_data_price_margin_top">8dp</dimen>
+    <dimen name="ag000_list_item_call_plan_margin_top">21dp</dimen>
+    <dimen name="ag000_tv_call_plan_title_magin_top">9dp</dimen>
+    <dimen name="ag000_tv_call_plan_title_textsize">16dp</dimen>
+    <dimen name="ag000_tabs_textsize">16dp</dimen>
+    <dimen name="ar000_tv_call_constract_type02_margin_top">10dp</dimen>
+    <dimen name="ar000_tv_call_discount_percent_margin_top">10dp</dimen>
+    <dimen name="ag000_imv_current_device_margin_top">38dp</dimen>
+    <dimen name="ag000_imv_current_device_margin_bottom">36dp</dimen>
+    <dimen name="ag000_list_item_apple_care_padding_top">24dp</dimen>
+    <dimen name="ag000_list_item_apple_care_padding_bottom">18dp</dimen>
+    <dimen name="ag000_list_item_monthly_padding_bottom">18dp</dimen>
+    <dimen name="ag000_list_item_monthly_padding_top">18dp</dimen>
+    <dimen name="ag000_text_size_amount">15dp</dimen>
+    <dimen name="ag000_text_size_header_price_amount">16dp</dimen>
+    <dimen name="ag000_text_size_title_price_amount">14dp</dimen>
+    <dimen name="ag000_text_size_percent">12dp</dimen>
+
+    <!--hm000 header-->
+    <dimen name="hm001_header_text_size">12dp</dimen>
+    <dimen name="hm001_header_icon_size">52dp</dimen>
+    <dimen name="hm000_red_dot_size">25dp</dimen>
+    <dimen name="hm000_red_dot_margin">-5dp</dimen>
+
+    <!-- Bottom Tab Bar -->
+    <dimen name="bottom_tab_bar_height">56dp</dimen>
+    <dimen name="bottom_tab_width">48dp</dimen>
+    <dimen name="bottom_tab_indicator_width">68dp</dimen>
+    <dimen name="bottom_tab_indicator_height">4dp</dimen>
+    <dimen name="bottom_tab_badge_new_width">30dp</dimen>
+    <dimen name="bottom_tab_badge_new_height">14dp</dimen>
+    <dimen name="bottom_tab_badge_new_margin_top">1dp</dimen>
+    <dimen name="bottom_tab_badge_new_margin_end">-9dp</dimen>
+    <dimen name="bottom_tab_icon_margin_top">3dp</dimen>
+    <dimen name="bottom_tab_icon_width">24dp</dimen>
+    <dimen name="bottom_tab_icon_height">24dp</dimen>
+    <dimen name="bottom_tab_text_size">12dp</dimen>
+    <dimen name="bottom_tab_content_padding_bottom">4dp</dimen>
+
+    <!--sbdialog-->
+    <dimen name="sbdialog_bottomlist_horizontal_margin">24dp</dimen>
+    <dimen name="sbdialog_bottomlist_title_margin_top">24dp</dimen>
+    <dimen name="sbdialog_bottomlist_message_margintop">13dp</dimen>
+    <dimen name="sbdialog_bottomlist_divider_margintop">24dp</dimen>
+
+    <dimen name="sbdialog_title_margintop">24dp</dimen>
+    <dimen name="sbdialog_message_margintop">12dp</dimen>
+    <dimen name="sbdialog_divider_margintop">24dp</dimen>
+    <dimen name="sbdialog_message_textsize">14dp</dimen>
+    <dimen name="sbdialog_title_textsize">18dp</dimen>
+    <dimen name="sbdialog_content_textsize">14dp</dimen>
+    <dimen name="sbdialog_button_textsize">14dp</dimen>
+    <dimen name="sbdialog_button_ok_textsize">17dp</dimen>
+    <dimen name="sbdialog_actions_text_size_item">16dp</dimen>
+    <dimen name="sbdialog_background_radius">15dp</dimen>
+    <dimen name="sbdialog_background_radius_large">12dp</dimen>
+    <dimen name="sbdialog_button_height">52dp</dimen>
+    <dimen name="sbdialog_actions_row_height">48dp</dimen>
+    <dimen name="sbdialog_cancel_separate_height">12dp</dimen>
+    <dimen name="charge_ball_padding">6dp</dimen>
+    <dimen name="charge_ball_padding_start">12dp</dimen>
+
+    <!-- HM000 Screen -->
+    <dimen name="hm000_title_amount_text_size">14dp</dimen>
+    <dimen name="hm000_header_item_margin_side">6dp</dimen>
+    <dimen name="hm000_header_item_margin_center">3dp</dimen>
+    <dimen name="hm000_header_icon_margin">8dp</dimen>
+
+    <!-- HM001Screen -->
+    <dimen name="hm001_imv_device_margin_Left">24dp</dimen>
+    <dimen name="hm001_imv_device_margin_Right">4.5dp</dimen>
+    <dimen name="hm001_top_view_tv_text_size">20dp</dimen>
+    <dimen name="hm001_tv_device_name_text_size">16dp</dimen>
+    <dimen name="hm001_top_view_tv_msn_margin_top">21dp</dimen>
+    <dimen name="hm001_top_view_divider_width">26dp</dimen>
+    <dimen name="hm001_top_view_divider_height">1dp</dimen>
+    <dimen name="hm001_ll_top_view_detail_margin_top">12dp</dimen>
+    <dimen name="hm001_top_view_tv_contract_info_margin_top">10dp</dimen>
+    <dimen name="hm001_ll_top_view_detail_text_padding_left">9.5dp</dimen>
+    <dimen name="hm001_tv_text_size">14dp</dimen>
+    <dimen name="hm001_onion_margin_top">8dp</dimen>
+    <dimen name="hm001_onion_margin_bottom">12dp</dimen>
+
+    <!-- HM004Screen -->
+    <dimen name="hm004_profile_view_height">426dp</dimen>
+    <dimen name="hm004_profile_view_margin_top">-24dp</dimen>
+    <dimen name="hm004_profile_view_radius_background">24dp</dimen>
+    <dimen name="sc000_id_card_margin_bottom">59dp</dimen>
+
+    <dimen name="ag011_ll_applecare_link_margin">30dp</dimen>
+    <dimen name="ag011_margin_icon_applecare">13dp</dimen>
+
+    <!--00_common-->
+    <dimen name="sb00common_footer_padding">24dp</dimen>
+    <dimen name="sb00common_text_size">12dp</dimen>
+    <dimen name="sb00common_padding_bottom">86dp</dimen>
+    <dimen name="sb00common_span">10dp</dimen>
+    <dimen name="sb_00_common_footer_line_spacing_9">6dp</dimen>
+
+    <!--plan ag009-->
+    <dimen name="ag000_tv_option_header_margin_bottom">13dp</dimen>
+    <dimen name="ag009_size_title_text">14dp</dimen>
+    <dimen name="ag009_title_margin">10dp</dimen>
+    <dimen name="ag009_header_margin_top">21dp</dimen>
+    <dimen name="ag009_header_margin_bottom">12dp</dimen>
+    <dimen name="ag009_item_margin">18dp</dimen>
+    <dimen name="ag009_item_margin_end">12dp</dimen>
+    <dimen name="ag009_text_size_header">18dp</dimen>
+
+    <!--sc007- change address-->
+    <dimen name="sc007_size_content_text">14dp</dimen>
+    <dimen name="sc007_size_title_text">16dp</dimen>
+    <dimen name="sc007_size_edit_text">18dp</dimen>
+    <dimen name="sc007_margin_button_left">35dp</dimen>
+    <dimen name="sc007_margin_recycler_view">24dp</dimen>
+    <dimen name="sc007_margin_item_top">15dp</dimen>
+    <dimen name="sc007_margin_item_bottom">10dp</dimen>
+    <dimen name="sc007_margin_button_top">36dp</dimen>
+    <dimen name="sc007_height_buttom">48dp</dimen>
+    <dimen name="sc007_buttom_search_margin">12dp</dimen>
+    <dimen name="sc007_header_margin">33dp</dimen>
+    <dimen name="sc007_header_margin_bottom">9dp</dimen>
+    <dimen name="sc007_height_line">2dp</dimen>
+    <!--07_todo-->
+    <dimen name="sb07todo_title_margin_top">6dp</dimen>
+
+    <!--sc005-->
+    <dimen name="sc005_text_size_14sp">14dp</dimen>
+    <dimen name="sc005_text_size_amount">34dp</dimen>
+    <dimen name="sc005_text_size_16sp">16dp</dimen>
+    <dimen name="sc005_text_size_12sp">12dp</dimen>
+    <dimen name="sc005_margin_bottom_item">33dp</dimen>
+    <dimen name="sc005_margin_right_item">10dp</dimen>
+    <dimen name="sc005_height_decorator">2dp</dimen>
+    <dimen name="sc005_height_decorator_default">0.5dp</dimen>
+    <dimen name="sc005_margin_layout">24dp</dimen>
+    <dimen name="sc005_margin_button_top">36dp</dimen>
+    <dimen name="sc005_margin_bottom_tpoint">18dp</dimen>
+    <dimen name="sc005_margin_top_inner_item">11dp</dimen>
+    <dimen name="sc005_margin_bottom_inner_item_header">13dp</dimen>
+    <dimen name="sc005_margin_top_tpoint">20dp</dimen>
+    <dimen name="sc005_text_size_amount_tpoint">21dp</dimen>
+    <dimen name="sc005_margin_start_inner_item">8dp</dimen>
+    <dimen name="sc005_top_header_tpoint_item">9dp</dimen>
+    <dimen name="sc005_margin_start_checkbox">18dp</dimen>
+    <dimen name="sc005_margin_inner_charge_item">5dp</dimen>
+    <dimen name="sc005_text_size_point_input">20dp</dimen>
+    <dimen name="sc005_text_size_title_tcard">18dp</dimen>
+    <dimen name="sc005_margin_start_btn">14dp</dimen>
+    <dimen name="sc005_margin_bottom_point">17dp</dimen>
+
+    <dimen name="ag011_decoration_magin">18dp</dimen>
+    <dimen name="ag011_tv_footer_right_margin_top">16dp</dimen>
+    <dimen name="ag011_tv_note_margin_top">18dp</dimen>
+    <dimen name="ag011_decorator_view_height">24dp</dimen>
+
+    <dimen name="ag000_tv_add_option_padding">36dp</dimen>
+
+    <!--sc001 history usage-->
+    <dimen name="sc001_margin_item_display_month">30dp</dimen>
+    <dimen name="sc001_margin_top_item_month">9dp</dimen>
+    <dimen name="sc001_margin_layout">24dp</dimen>
+    <dimen name="sc001_text_size_normal">12dp</dimen>
+    <dimen name="sc001_size_text_month">20dp</dimen>
+    <dimen name="sc001_margin_top_item">15dp</dimen>
+    <dimen name="sc001_margin_top_item_header">12dp</dimen>
+    <dimen name="sc001_size_text_days_of_month">14dp</dimen>
+    <dimen name="sc001_size_text_amount">16dp</dimen>
+    <dimen name="sc001_size_text_amount_spent">34dp</dimen>
+    <dimen name="sc001_size_title_amount_spent">12dp</dimen>
+    <dimen name="sc001_item_amount_margin">12dp</dimen>
+    <dimen name="sc001_item_date_margin">10dp</dimen>
+    <dimen name="sc001_button_radius">3dp</dimen>
+    <dimen name="sc001_text_button_pidding_start">10dp</dimen>
+    <dimen name="sc001_text_button_pidding_top">3dp</dimen>
+    <dimen name="sc001_item_month_height">48dp</dimen>
+    <dimen name="sc001_ic_padding">8dp</dimen>
+    <dimen name="sc001_tab_margin_top">25dp</dimen>
+
+    <!--SC006-->
+    <dimen name="sc006_margin_layout">24dp</dimen>
+    <dimen name="sc006_margin_top_item_recyclerview">45dp</dimen>
+    <dimen name="sc006_header_margin">11dp</dimen>
+    <dimen name="sc006_item_margin">16dp</dimen>
+    <dimen name="sc006_button_margin">21dp</dimen>
+    <dimen name="sc006_text_size">14dp</dimen>
+    <dimen name="sc006_text_size_header">18dp</dimen>
+    <dimen name="sc006_text_size_number">15dp</dimen>
+    <dimen name="sc006_line_height_header">1.5dp</dimen>
+    <dimen name="sc006_line_height">0.5dp</dimen>
+    <!--sc auto charge-->
+    <dimen name="sc002_margin_layout">24dp</dimen>
+    <dimen name="sc002_margin_layout_change">40dp</dimen>
+    <dimen name="sc002_margin_top_header">24dp</dimen>
+    <dimen name="sc002_margin_right_header_change">24dp</dimen>
+    <dimen name="sc002_margin_left_header">24dp</dimen>
+    <dimen name="sc002_margin_end_inner_charge">15dp</dimen>
+    <dimen name="sc002_margin_bottom_header">12dp</dimen>
+    <dimen name="sc002_text_size_header">16dp</dimen>
+    <dimen name="sc002_text_size_header_change">14dp</dimen>
+    <dimen name="sc002_text_line_extra">9dp</dimen>
+    <dimen name="sc002_margin_start_charge">41dp</dimen>
+    <dimen name="sc002_margin_end_charge">58dp</dimen>
+    <dimen name="sc002_margin_end_inner">15dp</dimen>
+    <dimen name="sc002_margin_top_btn">13dp</dimen>
+    <dimen name="sc002_margin_top_btn_change">24dp</dimen>
+    <dimen name="sc002_margin_bottom_btn">14dp</dimen>
+    <dimen name="sc002_margin_bottom_btn_change">8dp</dimen>
+    <dimen name="sc002_height_bottom_btn_change">52dp</dimen>
+    <dimen name="sc002_height_decorator">0.5dp</dimen>
+    <dimen name="sc002_margin_top_decorator">22dp</dimen>
+    <dimen name="sc002_header_text_size">18dp</dimen>
+    <dimen name="sc002_ic_width">53dp</dimen>
+    <dimen name="sc002_ic_height">37dp</dimen>
+    <dimen name="sc002_margin_left_auto_charge">24dp</dimen>
+    <dimen name="sc002_margin_btn_change">8dp</dimen>
+    <dimen name="sc002_padding_btn_change">8dp</dimen>
+
+    <!--point-hm000-->
+    <dimen name="hm000_text_size_number_card">12dp</dimen>
+    <dimen name="sb09_point_margin_top">18dp</dimen>
+    <dimen name="hm001_point_text_size_unregister">13dp</dimen>
+    <dimen name="hm001_point_margin_small">5dp</dimen>
+    <dimen name="hm001_number_point">24dp</dimen>
+    <!--SBcard sc000-->
+    <dimen name="sc000_text_size_14">14dp</dimen>
+    <dimen name="sc000_text_size_16">16dp</dimen>
+    <dimen name="sc000_text_size_12">12dp</dimen>
+    <dimen name="sc000_text_size_18">18dp</dimen>
+    <dimen name="sc000_recycler_margin">24dp</dimen>
+    <dimen name="sc000_item_margin">18dp</dimen>
+    <dimen name="sc000_image_point_margin">5dp</dimen>
+    <dimen name="sc000_bg_wallet_height_size">215dp</dimen>
+    <dimen name="sc000_wallet_margin_top">144dp</dimen>
+    <dimen name="sc000_wallet_margin_start">24dp</dimen>
+    <dimen name="sc000_wallet_margin_bottom">48dp</dimen>
+    <!--sc000_wallet_margin_bottom in design is 36dp-->
+    <dimen name="sc000_wallet_margin_bottom_overlay">12dp</dimen>
+    <dimen name="sc000_bank_card_button_height">115dp</dimen>
+    <dimen name="sc000_card_type_height">184dp</dimen>
+    <dimen name="sc000_card_type_margin">42dp</dimen>
+    <dimen name="sc000_text_user_type_margin">10dp</dimen>
+    <dimen name="sc000_text_user_type_white_card_margin">15dp</dimen>
+    <dimen name="sc000_text_user_type_padding">4dp</dimen>
+    <dimen name="sc000_bg_auto_charge_margin_top">159dp</dimen>
+    <dimen name="sc000_item_charge_balance_margin_top">84dp</dimen>
+    <dimen name="sc000_amount_auto_charge_off_margin">18dp</dimen>
+    <dimen name="sc000_text_size_28">28dp</dimen>
+    <dimen name="sc000_title_amount_margin_start">85dp</dimen>
+    <dimen name="sc000_title_amount_margin_top">50dp</dimen>
+    <dimen name="sc000_content_amount_margin_top">3dp</dimen>
+    <dimen name="sc000_title_total_padding_start">8dp</dimen>
+    <dimen name="sc000_title_total_padding_top">4dp</dimen>
+    <dimen name="sc000_item_charge_balance_margin_start">39dp</dimen>
+    <dimen name="sc000_item_charge_balance_on_margin_top">13dp</dimen>
+    <dimen name="sc000_item_auto_charge_balance_margin_top">3dp</dimen>
+    <dimen name="sc000_text_total_radius">2dp</dimen>
+    <dimen name="sc000_text_total_stroke">1dp</dimen>
+    <dimen name="sc000_item_button_margin_bottom">36dp</dimen>
+    <dimen name="sc000_item_help_margin_start">6dp</dimen>
+    <dimen name="sc000_item_sbswitch_width">51dp</dimen>
+    <dimen name="sc000_item_sbswitch_height">31dp</dimen>
+    <dimen name="sc000_item_sbswitch_margin_start">30dp</dimen>
+    <dimen name="sc000_item_button_height">48dp</dimen>
+    <dimen name="sc000_item_button_margin_left">38dp</dimen>
+    <dimen name="sc000_item_button_margin_right">38dp</dimen>
+    <dimen name="sc000_item_detail_margin_start">10dp</dimen>
+    <dimen name="sc000_item_header_margin_top">48dp</dimen>
+    <dimen name="sc000_item_header_margin_bottom">12dp</dimen>
+    <dimen name="sc000_item_info_margin_top">8dp</dimen>
+    <dimen name="sc000_rolling_number_height">42dp</dimen>
+    <dimen name="sc000_unit_margin_start_card_view">2dp</dimen>
+    <dimen name="sc000_item_charge_balance_margin">33dp</dimen>
+    <dimen name="sc000_image_translation_y">25dp</dimen>
+
+    <!--10sbcard sc004 -->
+    <dimen name="sc004_margin_start">24dp</dimen>
+    <dimen name="sc004_text_title_margin_top">14dp</dimen>
+    <dimen name="sc004_text_header_margin_top">36dp</dimen>
+    <dimen name="sc004_text_header_margin_bottom">12dp</dimen>
+    <dimen name="sc004_text_price">34dp</dimen>
+    <dimen name="sc004_button_charge_margin">36dp</dimen>
+    <dimen name="sc004_button_charge_margin_start">14dp</dimen>
+    <dimen name="sc004_line_margin_botton">18dp</dimen>
+    <dimen name="sc004_item_amout_margin">21dp</dimen>
+    <dimen name="sc004_height_line">1dp</dimen>
+    <dimen name="sc004_text_hint">12dp</dimen>
+    <dimen name="sc004_text_size_title">16dp</dimen>
+    <dimen name="sc004_text_header">18dp</dimen>
+    <dimen name="sc004_text_title">14dp</dimen>
+    <dimen name="sc004_text_size_edittext">20dp</dimen>
+    <dimen name="sc004_edittext_height">48dp</dimen>
+    <dimen name="sc004_stroke_checkbox">1dp</dimen>
+    <dimen name="sc004_radius_checkbox">36dp</dimen>
+    <dimen name="sc004_tv_amout_textsize">21dp</dimen>
+
+    <!-- 10_sbcard common-->
+    <dimen name="sb10card_button_height">48dp</dimen>
+    <dimen name="sb10card_radius_rectangle">4dp</dimen>
+    <dimen name="sb10card_radius_card">10dp</dimen>
+
+    <dimen name="charge_itemball_width_height">16dp</dimen>
+    <dimen name="charge_textview_phonesize">14dp</dimen>
+    <dimen name="charge_item_detail_padding">13dp</dimen>
+    <dimen name="charge_textview_phone_margin">8dp</dimen>
+    <dimen name="charge_money_margin_right">10dp</dimen>
+    <dimen name="charge_money_textsize">12dp</dimen>
+    <dimen name="charge_header_marginstart">8dp</dimen>
+    <dimen name="charge_textview_header_size">14dp</dimen>
+    <dimen name="charge_icon_payment_marginleft">8dp</dimen>
+    <dimen name="charge_payment_status_margintop">7dp</dimen>
+    <dimen name="charge_button_paid_padding_left_right">11dp</dimen>
+    <dimen name="charge_button_paid_padding_top_bottom">4dp</dimen>
+
+    <!-- 11_personal -->
+    <dimen name="ps_common_content_space">24dp</dimen>
+    <dimen name="ps_common_divider_02_height">1dp</dimen>
+    <dimen name="ps_common_divider_03_height">1.5dp</dimen>
+    <dimen name="ps_common_divider_04_height">0.5dp</dimen>
+    <dimen name="ps_common_text_small_size">14dp</dimen>
+    <dimen name="ps_common_text_medium_size">15dp</dimen>
+    <dimen name="ps_common_text_large_size">16dp</dimen>
+    <dimen name="ps_pa001_text_large_size">18dp</dimen>
+    <dimen name="ps070_app_info_icon_size">80dp</dimen>
+    <dimen name="ps070_app_info_appname_margin_top">12dp</dimen>
+    <dimen name="ps070_app_info_appversion_margin_top">5dp</dimen>
+    <dimen name="ps070_app_info_padding_vertical">36dp</dimen>
+    <dimen name="ps070_license_padding_horizontal">24dp</dimen>
+    <dimen name="ps070_license_padding_top">15dp</dimen>
+    <dimen name="ps070_license_padding_bottom">22dp</dimen>
+    <dimen name="ps070_license_button_width">20dp</dimen>
+    <dimen name="ps070_license_button_height">20dp</dimen>
+    <dimen name="ps070_app_info_padding_horizontal">38dp</dimen>
+    <dimen name="sp070_bt_check_for_update_padding_horizontal">26dp</dimen>
+    <dimen name="ps_070_button_check_for_update_height">48dp</dimen>
+    <dimen name="ps070_divider_margin_top">11dp</dimen>
+    <dimen name="ps088_margin_top">45dp</dimen>
+    <dimen name="ps088_margin_bottom">76dp</dimen>
+
+    <!-- SBSwSettingItem -->
+    <dimen name="sbsw_setting_item_title_size">14dp</dimen>
+
+    <!--sc008-->
+    <dimen name="sc008_margin_layout">24dp</dimen>
+    <dimen name="sc008_margin_inner_item_text">7dp</dimen>
+    <dimen name="sc008_margin_top_item_text">18dp</dimen>
+    <dimen name="sc008_margin_bottom_item_text">10dp</dimen>
+    <dimen name="sc008_text_size_title">14dp</dimen>
+    <dimen name="sc008_text_size_button">16dp</dimen>
+    <dimen name="sc008_margin_start_button">38dp</dimen>
+    <dimen name="sc008_text_size_phone">34dp</dimen>
+    <dimen name="sc008_header_margin_bottom">9dp</dimen>
+    <dimen name="sc008_height_line">2dp</dimen>
+    <dimen name="sc008_item_top_margin">33dp</dimen>
+    <dimen name="sc008_text_size_header">18dp</dimen>
+    <dimen name="sc008_height_edit_text">48dp</dimen>
+    <dimen name="sc008_text_size_note">12dp</dimen>
+    <dimen name="sc008_edit_text_margin">12dp</dimen>
+
+    <!--sc009-->
+    <dimen name="sc009_text_size_header">14dp</dimen>
+    <dimen name="sc009_text_size_title">17dp</dimen>
+    <dimen name="sc009_text_size_text_hint">18dp</dimen>
+    <dimen name="sc009_height_button">48dp</dimen>
+    <dimen name="sc009_header_margin">31dp</dimen>
+    <dimen name="sc009_edit_text_margin">10dp</dimen>
+    <dimen name="sc009_edit_text_margin_start">12dp</dimen>
+    <dimen name="sc009_btn_show_password_margin_end">8dp</dimen>
+    <dimen name="sc009_width_icon_password">23dp</dimen>
+    <dimen name="sc009_height_icon_password">21dp</dimen>
+    <dimen name="sc009_text_size_button">16dp</dimen>
+    <!-- SC019-->
+    <dimen name="sc019_recycleview_margin">24dp</dimen>
+    <dimen name="sc019_margin_item">15dp</dimen>
+    <dimen name="sc019_margin_bottom_item">18dp</dimen>
+    <dimen name="sc019_title_size">13dp</dimen>
+    <dimen name="sc019_text_point_size">16dp</dimen>
+    <dimen name="sc019_text_content_size">14dp</dimen>
+    <dimen name="sc019_header_margin">4dp</dimen>
+    <dimen name="sc019_image_margin">8dp</dimen>
+    <dimen name="sc019_item_margin">4dp</dimen>
+    <dimen name="sc019_text_size_header">14dp</dimen>
+    <dimen name="sc019_error_margin">30dp</dimen>
+    <dimen name="sc019_line_height">22dp</dimen>
+    <dimen name="sc019_ic_width">13dp</dimen>
+    <dimen name="sc019_recycleview_margin_bottom">36dp</dimen>
+
+    <!-- 50_design -->
+    <dimen name="sb_edittext_padding_bottom">12dp</dimen>
+    <dimen name="ag027_tv_header_margin">24dp</dimen>
+    <dimen name="ag027_header_margin_bottom">12dp</dimen>
+    <dimen name="ag027_height_elevation">5dp</dimen>
+
+    <!--sc010-->
+    <dimen name="sc010_margin_layout">24dp</dimen>
+    <dimen name="sc010_margin_top_layout">20dp</dimen>
+    <dimen name="sc010_padding_img_expand">5dp</dimen>
+    <dimen name="sc010_text_size_button">16dp</dimen>
+    <dimen name="sc010_text_size_notice1_japan_header">14dp</dimen>
+    <dimen name="sc010_text_size_notice3_1_japan_header">12dp</dimen>
+    <dimen name="sc010_text_size_japan_header">26dp</dimen>
+    <dimen name="sc010_text_size_notice2_japan_header">14dp</dimen>
+    <dimen name="sc010_margin_top_notice2_japan_header">14dp</dimen>
+    <dimen name="sc010_line_extra">3dp</dimen>
+    <dimen name="sc010_margin_start_button">39dp</dimen>
+    <dimen name="sc010_margin_start_image">39dp</dimen>
+    <dimen name="sc010_margin_top_button">12dp</dimen>
+    <dimen name="sc010_extra_margin_top_button">24dp</dimen>
+    <dimen name="sc010_padding_circle_number">12dp</dimen>
+    <dimen name="sc010_margin_top_image_seven_bank">20dp</dimen>
+    <dimen name="sc010_margin_end_image_seven_bank">19dp</dimen>
+    <dimen name="sc010_margin_start_note_seven_bank">65dp</dimen>
+    <dimen name="sc010_height_bottom_bank">2dp</dimen>
+    <dimen name="sc010_margin_bottom_view">10dp</dimen>
+    <dimen name="sc010_margin_bottom_img_atm">19dp</dimen>
+    <dimen name="sc010_margin_top_img_atm">18.5dp</dimen>
+    <dimen name="sc010_extra_top_button_margin">13dp</dimen>
+
+    <dimen name="sbdialog_horizontal_margin">24dp</dimen>
+    <dimen name="od025_list_item_margin">24dp</dimen>
+    <dimen name="od025_list_item_title_textsize">16dp</dimen>
+    <dimen name="od025_tv_category_notice_margin_top">24dp</dimen>
+    <dimen name="od025_tv_category_notice_margin">25dp</dimen>
+    <dimen name="sc010_spacing_note">7dp</dimen>
+    <dimen name="sc010_height_number">20dp</dimen>
+    <dimen name="sb_toast_padding_bottom">72dp</dimen>
+    <dimen name="od020_recycleview_margin">24dp</dimen>
+    <dimen name="od020_header_textsize">16dp</dimen>
+    <dimen name="od020_tv_header_margin_top">16dp</dimen>
+    <dimen name="od020_tv_item_list_content_margin_top">16dp</dimen>
+    <dimen name="od020_imv_item_list_clipboard_margin_end">6dp</dimen>
+    <dimen name="od020_password_decoration_margin_top">12dp</dimen>
+    <dimen name="od020_item_list_generate_margin_top">8dp</dimen>
+    <dimen name="od020_category_margin">24dp</dimen>
+    <dimen name="od020_imv_password_icon_margin_bottom">18dp</dimen>
+    <dimen name="od020_tv_title_margin_top">6dp</dimen>
+    <dimen name="od020_generate_password_icon_margin_top">8dp</dimen>
+    <dimen name="od020_imv_generate_password_margin_end">11dp</dimen>
+    <dimen name="od0250_bar_bottom_height">49dp</dimen>
+    <dimen name="od0250_bar_bottom_height_include_shadow">57dp</dimen>
+    <dimen name="od0250_tv_delete_textsize">12dp</dimen>
+    <dimen name="od0250_delete_start_margin">38dp</dimen>
+    <dimen name="od0250_delete_width">48dp</dimen>
+    <dimen name="od0250_add_width">58dp</dimen>
+    <dimen name="od0250_add_end_margin">32dp</dimen>
+    <dimen name="od025_list_item_title_margin">18dp</dimen>
+
+    <!--OD-017-->
+    <dimen name="od017_item_space">12dp</dimen>
+    <dimen name="od017_item_horizontal_padding">24dp</dimen>
+    <dimen name="od017_margin_22dp">22dp</dimen>
+    <dimen name="od017_favicon_width">60dp</dimen>
+    <dimen name="od017_margin_39dp">39dp</dimen>
+    <dimen name="od017_margin_18dp">18dp</dimen>
+    <dimen name="od017_standard_text_size">14dp</dimen>
+    <dimen name="od017_service_name_text_size">16dp</dimen>
+    <dimen name="od017_padding_5dp">5dp</dimen>
+    <dimen name="od017_tab_bar_text_size">12dp</dimen>
+    <dimen name="od017_padding_16dp">16dp</dimen>
+    <dimen name="od017_padding_15dp">15dp</dimen>
+    <dimen name="od017_margin_4dp">4dp</dimen>
+    <dimen name="od017_margin_10dp">10dp</dimen>
+    <dimen name="od017_margin_28dp">28dp</dimen>
+    <dimen name="od017_padding_21dp">21dp</dimen>
+    <dimen name="od017_elevation">8dp</dimen>
+    <dimen name="od017_tv_icon_text_size">40dp</dimen>
+    <dimen name="od017_bottom_bar_height_include_shadow">57dp</dimen>
+
+    <dimen name="charge_btn_padding_top">24dp</dimen>
+    <dimen name="charge_btn_padding_bottom">60dp</dimen>
+
+    <!-- 17_pwmanager od019-->
+    <dimen name="od019_item_padding">24dp</dimen>
+    <dimen name="od019_auto_gen_pass_padding_top">8dp</dimen>
+    <dimen name="od019_text_auto_gen_pass_margin_start">40dp</dimen>
+    <dimen name="od019_text_size_14">14dp</dimen>
+    <dimen name="od019_text_size_16">16dp</dimen>
+    <dimen name="od019_item_text_above_height">19dp</dimen>
+    <dimen name="od019_item_text_below_height">21dp</dimen>
+    <dimen name="od019_item_text_below_margin_top">12dp</dimen>
+    <dimen name="od019_item_text_above_margin_top">22dp</dimen>
+    <dimen name="od019_ic_copy_pass_width_height">18dp</dimen>
+    <dimen name="od019_margin_tiny">3dp</dimen>
+    <dimen name="od019_blue_arrow_margin">30dp</dimen>
+    <dimen name="od019_line_margin_top">16dp</dimen>
+    <dimen name="od019_button_margin_top_bottom">36dp</dimen>
+    <dimen name="od019_button_margin_start_end">48dp</dimen>
+    <dimen name="home_screen_loading_icon_size">100dp</dimen>
+
+    <!--physics layout -->
+    <dimen name="physics_layout_dp_per_meter">50dp</dimen>
+
+    <!-- Home Header -->
+    <dimen name="status_bar_height">24dp</dimen>
+    <!-- Home Header = 69dp (in XD) + 24dp (status_bar_height) -->
+    <dimen name="home_header_height_without_status_bar">69dp</dimen>
+    <dimen name="home_header_height">93dp</dimen>
+    <dimen name="home_header_shadow_height">15dp</dimen>
+    <dimen name="common_header_gray_shadow_height">8dp</dimen>
+    <dimen name="home_header_padding_horizontal">10dp</dimen>
+    <dimen name="base_header_icon_size">48dp</dimen>
+    <dimen name="home_header_title_margin">34dp</dimen>
+
+    <dimen name="charge_divider_bottom_height">1dp</dimen>
+    <dimen name="charge_nodata">24dp</dimen>
+
+    <dimen name="od021_button_margin_start">48dp</dimen>
+    <dimen name="od021_button_margin_top">36dp</dimen>
+    <dimen name="od021_button_margin_bottom">24dp</dimen>
+    <dimen name="od036_margin_top">45dp</dimen>
+    <dimen name="od036_margin_top_of_text">8dp</dimen>
+    <dimen name="od036_margin_bottom_of_text">12dp</dimen>
+    <dimen name="od036_padding_start">24dp</dimen>
+    <dimen name="od0252_cb_margin_top">14dp</dimen>
+    <dimen name="od0252_tv_category_title_margin_start">18dp</dimen>
+    <dimen name="od0252_button_margin_top">36dp</dimen>
+    <dimen name="od0252_button_margin_start">48dp</dimen>
+    <dimen name="od0252_button_height">40dp</dimen>
+    <dimen name="od0252_button_text_size">14dp</dimen>
+    <dimen name="od038_tv_category_title_margin_top">24dp</dimen>
+    <dimen name="od038_button_margin_bottom">36dp</dimen>
+    <dimen name="od038_button_margin_top">18dp</dimen>
+    <dimen name="charge_textview_date_padding_top">10dp</dimen>
+    <dimen name="charge_textview_date_textsize">12dp</dimen>
+    <dimen name="mn000_icon_item_height">130dp</dimen>
+
+
+    <!--od027-->
+    <dimen name="od027_padding">24dp</dimen>
+    <dimen name="od027_padding_top">23dp</dimen>
+    <dimen name="od027_text_size_14">14dp</dimen>
+    <dimen name="od027_text_size_16">16dp</dimen>
+    <dimen name="od027_text_size_28">28dp</dimen>
+    <dimen name="od027_text_small_height">19dp</dimen>
+    <dimen name="od027_text_normal_height">21dp</dimen>
+    <dimen name="od027_text_small_margin_top">42dp</dimen>
+    <dimen name="od027_edt_margin_top">11dp</dimen>
+    <dimen name="od027_button_height">40dp</dimen>
+    <dimen name="od027_margin_bottom">36dp</dimen>
+    <dimen name="od027_ln_padding_top">18dp</dimen>
+    <dimen name="od027_button_outline_width_height">154dp</dimen>
+    <dimen name="od027_item_conditions_create_pass_height">56dp</dimen>
+    <dimen name="od027_sw_condition_width">51dp</dimen>
+    <dimen name="od027_sw_condition_height">31dp</dimen>
+    <dimen name="od020_tv_header_margin_bottom">26dp</dimen>
+    <dimen name="od019_tv_category_title_margin_top">6dp</dimen>
+    <dimen name="od019_tv_category_content_margin_bottom">18dp</dimen>
+    <dimen name="od019_tv_category_content_margin_top">8dp</dimen>
+    <dimen name="od019_tv_memo_margin_top">24dp</dimen>
+    <dimen name="charge_header_height">48dp</dimen>
+    <!-- BL-029 -->
+    <dimen name="bl029_label_additional_change_limits_margin_top">22dp</dimen>
+    <dimen name="bl029_header_text_size">34dp</dimen>
+    <dimen name="bl029_label_available_amount_margin_top">18dp</dimen>
+    <dimen name="bl029_font_size_large">16dp</dimen>
+    <dimen name="bl029_font_size_edt">20dp</dimen>
+    <dimen name="bl029_label_expected_amount_of_money_margin_top">33dp</dimen>
+    <dimen name="bl029_label_expected_amount_of_money_margin_bottom">10dp</dimen>
+    <dimen name="bl029_label_expected_amount_of_money_margin_end">4dp</dimen>
+    <dimen name="bl029_btn_change_margin_bottom">36dp</dimen>
+    <dimen name="bl029_width_web_detail_button">279dp</dimen>
+    <dimen name="bl029_height_web_detail_button">48dp</dimen>
+    <dimen name="bl029_wrapper_expected_amount_of_money_margin_bottom">9dp</dimen>
+    <dimen name="bl029_biggest_value_setting_wrapper_height">48dp</dimen>
+    <dimen name="bl029_available_amount_wrapper_height">147dp</dimen>
+    <dimen name="bl029_edt_pading">12dp</dimen>
+    <dimen name="bl029_padding_top">18dp</dimen>
+    <dimen name="bl029_line_header_padding_top">11dp</dimen>
+    <dimen name="bl029_line_header_padding_end">21dp</dimen>
+    <dimen name="bl029_line_header_padding_bottom">16dp</dimen>
+    <dimen name="bl029_text_size_14">14dp</dimen>
+    <dimen name="bl029_text_size_22">22dp</dimen>
+    <dimen name="bl029_error_code_padding">8dp</dimen>
+    <dimen name="bl029_max_amount_padding">4dp</dimen>
+
+    <!-- BL-032 -->
+    <dimen name="bl032_height_web_detail_button">48dp</dimen>
+    <dimen name="bl032_btn_change_margin_top">34dp</dimen>
+    <dimen name="bl032_btn_change_padding">14dp</dimen>
+    <dimen name="bl032_text_size_large">16dp</dimen>
+    <dimen name="bl032_label_additional_change_limits_margin_top">21dp</dimen>
+    <dimen name="bl032_label_additional_change_limits_margin_bottom">10dp</dimen>
+    <dimen name="bl032_normal_padding">24dp</dimen>
+    <dimen name="bl032_edt_hint_padding">12dp</dimen>
+    <dimen name="bl032_edt_password_height">48dp</dimen>
+    <dimen name="bl032_text_size_password">18dp</dimen>
+    <dimen name="bl032_btn_show_password_margin_end">8dp</dimen>
+    <dimen name="bl032_separate_btn_password_margin_end">37dp</dimen>
+    <dimen name="bl032_divider_size">1dp</dimen>
+    <dimen name="bl032_error_text_margin_top">7dp</dimen>
+    <dimen name="bl032_note_text_margin_top">5dp</dimen>
+    <!-- BL-021 -->
+    <dimen name="bl021_normal_item_height">50dp</dimen>
+    <dimen name="bl021_separate_line_margin_end">4dp</dimen>
+    <dimen name="bl021_normal_menu_height_devidid">1dp</dimen>
+    <dimen name="bl021_font_size_large">17dp</dimen>
+    <dimen name="bl021_font_size_normal">14dp</dimen>
+    <dimen name="bl021_font_size_12">12dp</dimen>
+    <dimen name="bl021_ic_question_mark_margin_end">5dp</dimen>
+    <dimen name="bl021_label_available_amount_weigh">51.4</dimen>
+    <dimen name="bl021_available_amount_weigh">44.9</dimen>
+    <dimen name="bl021_label_available_amount_separator">3.7</dimen>
+    <dimen name="bl021_view_header_height">170dp</dimen>
+    <dimen name="bl021_view_margin">24dp</dimen>
+    <dimen name="bl021_view_margin_top">10dp</dimen>
+    <dimen name="bl021_text_header_margin_top">18dp</dimen>
+    <dimen name="bl021_text_size_12">12dp</dimen>
+    <dimen name="bl021_text_size_14">14dp</dimen>
+    <dimen name="bl021_text_size_34">34dp</dimen>
+    <dimen name="bl021_text_size_22">22dp</dimen>
+    <dimen name="bl021_text_time_padding_top">8dp</dimen>
+    <dimen name="bl021_text_time_padding_bottom">14dp</dimen>
+    <dimen name="bl021_amount_padding">12dp</dimen>
+    <dimen name="bl021_label_expected_amount_of_money_margin_end">4dp</dimen>
+    <dimen name="bl021_line_header_padding_end">21dp</dimen>
+    <dimen name="bl021_max_amount_margin_end">13dp</dimen>
+
+    <!-- BL-030-->
+    <dimen name="bl030_label_passsword_is_margin_top">20dp</dimen>
+    <dimen name="bl030_label_passsword_is_margin_top_change">24dp</dimen>
+    <dimen name="bl030_label_passsword_is_margin_bottom">17dp</dimen>
+    <dimen name="bl030_tv_title_margin_top">24dp</dimen>
+    <dimen name="bl030_tv_explain_margin_top">12dp</dimen>
+    <dimen name="bl030_password_field_margin_top">22dp</dimen>
+    <dimen name="bl030_text_size_small_q">14dp</dimen>
+    <dimen name="bl030_text_size_normal">16dp</dimen>
+    <dimen name="bl030_text_size_normal_change">14dp</dimen>
+    <dimen name="bl030_text_size_normal_l">17dp</dimen>
+    <dimen name="bl030_password_field_wrapper_margin_start">24dp</dimen>
+    <dimen name="bl030_btn_wrapper_height">56dp</dimen>
+    <dimen name="bl030_btn_wrapper_height_change">52dp</dimen>
+    <dimen name="bl030_padding_right_change">8dp</dimen>
+    <dimen name="bl030_divider_size">1dp</dimen>
+    <dimen name="bl030_show_pwd_container_ico_margin">2dp</dimen>
+    <dimen name="bl030_btn_height">48dp</dimen>
+    <dimen name="bl030_btn_height_change">52dp</dimen>
+    <dimen name="bl030_margin_change">8dp</dimen>
+    <dimen name="bl030_padding_btn_change">8dp</dimen>
+    <dimen name="bl030_edt_padding">5dp</dimen>
+    <dimen name="bl030_edt_password_height">48dp</dimen>
+    <dimen name="bl030_btn_show_password_margin_end">8dp</dimen>
+    <dimen name="bl030_padding">24dp</dimen>
+    <dimen name="bl030_padding_change">40dp</dimen>
+    <dimen name="bl030_padding_top">197dp</dimen>
+    <dimen name="bl030_padding_top_lock">235dp</dimen>
+    <dimen name="bl030_locked_password_padding">48dp</dimen>
+    <dimen name="bl030_label_try_again_height">36dp</dimen>
+    <dimen name="bl030_tv_label_explain_margin_start">38dp</dimen>
+    <dimen name="bl030_separate_btn_password_margin_end">37dp</dimen>
+    <dimen name="bl030_tv_detail_margin_bottom">24dp</dimen>
+    <dimen name="bl030_tv_detail_margin_bottom_change">24dp</dimen>
+    <dimen name="bl030_tv_detail_margin_top">16.5dp</dimen>
+    <dimen name="od025_list_item_title_padding">20dp</dimen>
+    <dimen name="ml000_mail_detail_s_mail_address_margin">18dp</dimen>
+    <dimen name="ml000_setting_title_textsize">18dp</dimen>
+    <dimen name="ml000_item_option_content_textsize">15dp</dimen>
+    <dimen name="ml000_mail_detail_s_mail_margin_top">21dp</dimen>
+    <dimen name="ml000_setting_divider_margin_top">12dp</dimen>
+
+
+    <dimen name="cardmail_margin_1dp">1dp</dimen>
+
+    <dimen name="bl000_charge_padding_normal">12dp</dimen>
+    <dimen name="bl000_charge_line_padding_top">8dp</dimen>
+    <dimen name="bl000_charge_textsize_period">14dp</dimen>
+    <dimen name="bl000_charge_textview_period_marginbottom">8dp</dimen>
+    <dimen name="bl000_charge_textsize_total">28dp</dimen>
+    <dimen name="bl000_charge_textview_bill_closing_margin_bottom">10dp</dimen>
+    <dimen name="charge_header_status_height">40dp</dimen>
+    <dimen name="bl000_item_padding_top_bottom">15dp</dimen>
+    <dimen name="bl000_charge_total_margin_bottom">45dp</dimen>
+    <dimen name="charge_nodata_padding_bottom">61dp</dimen>
+    <dimen name="charge_tvnodata_size">14dp</dimen>
+    <dimen name="charge_tvnodata_marginleft">6dp</dimen>
+    <dimen name="bl000_charge_detail_padding_top_bottom">12dp</dimen>
+    <dimen name="hm000_item_charge_wrapbox_height">20dp</dimen>
+    <dimen name="hm000_item_charge_wrapbox_width">56dp</dimen>
+    <dimen name="hm000_item_charge_textsize_payment_status">12dp</dimen>
+    <dimen name="hm000_item_charge_payment_status_margin_top">2dp</dimen>
+    <dimen name="hm000_item_charge_payment_status_margin_start_end">8dp</dimen>
+    <dimen name="hm000_item_charge_textview_total_size">28dp</dimen>
+    <dimen name="hm000_item_charge_text_month_size">14dp</dimen>
+    <dimen name="hm000_item_month_margin_top">8dp</dimen>
+    <dimen name="hm000_item_total_margin_top">4dp</dimen>
+    <!-- BL-106-->
+    <dimen name="bl106_tv_message_margin_bottom">32dp</dimen>
+    <dimen name="bl106_tv_message_margin_start">35dp</dimen>
+    <dimen name="bl106_tv_message_margin_end">34dp</dimen>
+    <dimen name="bl106_tv_message_margin_top">12dp</dimen>
+    <dimen name="bl106_dialog_margin_start">24dp</dimen>
+    <dimen name="bl106_tv_title_margin_top">24dp</dimen>
+    <dimen name="bl106_label_btn_height">48dp</dimen>
+    <dimen name="bl106_devider_size">1dp</dimen>
+
+    <!-- BL-034 SCREEN-->
+    <dimen name="bl034_padding_low">12dp</dimen>
+    <dimen name="bl034_padding_medium">18dp</dimen>
+    <dimen name="bl034_padding_hight">36dp</dimen>
+    <dimen name="bl034_padding_item_text">20.5dp</dimen>
+    <dimen name="bl034_text_size_18">18dp</dimen>
+    <dimen name="bl034_text_size_14">14dp</dimen>
+    <dimen name="bl034_text_size_16">16dp</dimen>
+    <dimen name="bl034_height_blue_line">1.5dp</dimen>
+    <dimen name="bl034_height_gray_line">1dp</dimen>
+    <dimen name="bl034_dialog_message_margin_bottom">24dp</dimen>
+    <dimen name="bl034_dialog_message_margin_start">33dp</dimen>
+    <dimen name="bl034_dialog_message_margin_top">12dp</dimen>
+    <dimen name="bl034_tv_title_dialog_margin_top">24dp</dimen>
+    <dimen name="bl019_header_height">64dp</dimen>
+    <dimen name="bl019_textview_filter_margin_left">24dp</dimen>
+    <dimen name="bl019_textview_filter_size">16dp</dimen>
+    <dimen name="bl019_icon_switch_margin_right">12dp</dimen>
+    <dimen name="bl019_dialog_filter_padding_start_end">27dp</dimen>
+    <dimen name="bl019_dialog_filter_padding_start_end_change">24dp</dimen>
+    <dimen name="bl019_textview_title_textsize">18dp</dimen>
+    <dimen name="bl019_textview_title_textsize_change">16dp</dimen>
+    <dimen name="bl019_item_checkall_height">51dp</dimen>
+    <dimen name="bl019_item_checkbox_marginleft">18dp</dimen>
+    <dimen name="bl019_textview_select_all_margin_left">12dp</dimen>
+    <dimen name="bl019_textview_select_all_size">14dp</dimen>
+    <dimen name="bl019_item_color_margin_bottom">52dp</dimen>
+    <dimen name="bl019_tv_cancel_size">16dp</dimen>
+    <dimen name="bl019_tv_cancel_size_change">14dp</dimen>
+    <dimen name="bl019_tv_title_height">66dp</dimen>
+    <dimen name="bl019_tv_title_height_change">64dp</dimen>
+    <dimen name="bl019_tv_title_padding_left_change">24dp</dimen>
+    <dimen name="bl019_textview_name_size">13dp</dimen>
+    <dimen name="bl019_item_name_padding_top_bottom">6dp</dimen>
+    <dimen name="bl019_column_month_height">24dp</dimen>
+    <dimen name="bl019_dialog_filter_height">49dp</dimen>
+    <dimen name="bl019_item_contract_textsize">15dp</dimen>
+    <dimen name="charge_item_line_height">0.5dp</dimen>
+    <dimen name="charge_item_line_height_change">1dp</dimen>
+    <dimen name="charge_item_line_big_height">1.5dp</dimen>
+    <dimen name="bl019_item_checkbox_width_height">24dp</dimen>
+    <dimen name="bl019_column_top">80dp</dimen>
+    <dimen name="bl019_legend_margin_colunm">18.5dp</dimen>
+    <dimen name="bl019_height_footer_view">26dp</dimen>
+    <dimen name="bl019_view_footer_height">2dp</dimen>
+
+    <!-- MN000Screen -->
+    <dimen name="mn000_padding">30dp</dimen>
+    <dimen name="mn000_padding_top">10dp</dimen>
+    <dimen name="mn000_margin_vertical">39dp</dimen>
+    <dimen name="mn000_notification_width">42.89dp</dimen>
+    <dimen name="mn000_notification_height">55.32dp</dimen>
+    <dimen name="mn000_todo_width">57.91dp</dimen>
+    <dimen name="mn000_todo_height">52.99dp</dimen>
+    <dimen name="mn000_contact_us_width">51.82dp</dimen>
+    <dimen name="mn000_contact_us_height">47.48dp</dimen>
+    <dimen name="mn000_store_height">41.86dp</dimen>
+    <dimen name="mn000_store_width">52.52dp</dimen>
+    <dimen name="mn000_info_width">50dp</dimen>
+    <dimen name="mn000_margin_top">19dp</dimen>
+    <dimen name="bl000_tv_title_margin_left">10dp</dimen>
+    <dimen name="charge_header_unpaid_margin_right">19dp</dimen>
+    <dimen name="bl108_textview_amount_included">6dp</dimen>
+    <dimen name="bl108_item_amount_margin_top">17dp</dimen>
+    <dimen name="bl108_item_totalamount_margin_top">22dp</dimen>
+    <dimen name="bl108_textview_totalamount_size">20dp</dimen>
+    <dimen name="bl108_tv_totalamount_margin_left">13dp</dimen>
+    <dimen name="bl108_yen_margin_left">3dp</dimen>
+    <dimen name="bl108_textview_description_margin_top">18dp</dimen>
+    <dimen name="bl108_button_check_history_margin_top_bottom">36dp</dimen>
+    <dimen name="bl108_button_check_history_height">46dp</dimen>
+    <dimen name="bl108_button_check_history_margin_left_right">38dp</dimen>
+    <dimen name="bl108_charge_ball_size_16">16dp</dimen>
+    <dimen name="bl108_charge_ball_size_20">20dp</dimen>
+    <dimen name="bl108_charge_ball_size_24">24dp</dimen>
+    <dimen name="bl108_charge_ball_size_28">28dp</dimen>
+    <dimen name="bl108_charge_ball_size_32">32dp</dimen>
+    <dimen name="bl108_charge_ball_size_36">36dp</dimen>
+    <dimen name="bl108_charge_ball_size_40">40dp</dimen>
+    <item name="bl000_charge_alpha_background" format="float" type="dimen">0.95</item>
+
+    <dimen name="home_screen_help_title_margin_bottom">101dp</dimen>
+    <dimen name="home_screen_help_title_text_size">20dp</dimen>
+    <dimen name="home_screen_help_desc_margin_top">31dp</dimen>
+    <dimen name="home_screen_help_container_padding_bottom">70dp</dimen>
+
+    <dimen name="dialog_app_update_title_text_size">19dp</dimen>
+    <dimen name="dialog_app_update_message_text_size">15dp</dimen>
+    <dimen name="dialog_app_update_button_text_size">17dp</dimen>
+    <dimen name="dialog_app_update_content_margin_horizontal">24dp</dimen>
+    <dimen name="dialog_app_update_divider_margin_top">22dp</dimen>
+    <dimen name="dialog_app_update_button_height">48dp</dimen>
+
+    <dimen name="td000_title_margin_start">67dp</dimen>
+    <dimen name="td000_intro_margin_start">97dp</dimen>
+    <dimen name="sb_jump_ic_padding_normal">2dp</dimen>
+    <dimen name="sb_jump_ic_padding_bottom">4dp</dimen>
+    <dimen name="td001_message_margin_top">18dp</dimen>
+
+    <dimen name="fs000_bt_start_margin_horizontal">38dp</dimen>
+    <dimen name="fs000_bt_start_height">48dp</dimen>
+    <dimen name="fs000_bt_start_text_size">16dp</dimen>
+    <dimen name="sc008_margin_bottom_button">72dp</dimen>
+
+    <dimen name="hm004_top_view_height">206dp</dimen>
+    <dimen name="hm004_iv_soft_bank_width">174dp</dimen>
+    <dimen name="hm004_iv_soft_bank_height">37dp</dimen>
+    <dimen name="hm004_iv_soft_bank_margin_top">21dp</dimen>
+    <dimen name="hm004_iv_soft_bank_margin_bottom">16dp</dimen>
+    <dimen name="hm004_iv_otousan_width">165dp</dimen>
+    <dimen name="hm004_iv_otousan_height">132dp</dimen>
+    <dimen name="hm004_ll_msg_padding_vertical">60dp</dimen>
+    <dimen name="hm004_ll_msg_padding_horizontal">24dp</dimen>
+    <dimen name="hm004_content_title_text_size">24dp</dimen>
+    <dimen name="hm004_content_detail_margin_top">24dp</dimen>
+    <dimen name="hm004_content_detail_text_size">16dp</dimen>
+    <dimen name="hm004_content_detail_line_height">24dp</dimen>
+    <dimen name="bl022_tvpayment_size">12dp</dimen>
+    <dimen name="bl022_item_nodata_margin_top">15dp</dimen>
+
+    <dimen name="pt003_layout_spacing_percent_margin">6.4</dimen>
+    <dimen name="pt003_layout_spacing_percent_full">87.2</dimen>
+    <dimen name="pt003_layout_spacing_percent_path_24">2.4</dimen>
+    <dimen name="pt003_layout_spacing_percent_card_number">53.6</dimen>
+    <dimen name="pt003_layout_spacing_percent_tpoint_card_name">31.2</dimen>
+    <dimen name="pt003_layout_spacing_percent_path_32">3.2</dimen>
+    <dimen name="pt003_layout_spacing_percent_group_56">56</dimen>
+    <dimen name="pt003_layout_spacing_percent_group_28">28</dimen>
+    <dimen name="pt003_radius_ball_small">3.5dp</dimen>
+    <dimen name="pt003_radius_ball_medium">7dp</dimen>
+    <dimen name="pt003_radius_ball_large">14dp</dimen>
+    <dimen name="pt003_ball_distance_delta_small">4dp</dimen>
+    <dimen name="pt003_ball_distance_delta_medium">6dp</dimen>
+    <dimen name="pt003_ball_distance_delta_large">16dp</dimen>
+    <dimen name="layout_padding_spacing_all_left">0.064</dimen>
+    <dimen name="layout_padding_spacing_bl016_left">0.04</dimen>
+    <dimen name="ag005_guideline_left">0.4</dimen>
+    <dimen name="ag005_guideline_right">0.432</dimen>
+    <dimen name="bl108_view_separator_percent">0.032</dimen>
+    <dimen name="layout_padding_spacing_all_right">0.936</dimen>
+    <dimen name="bl000_item_button_detail_compare_separator_total">12</dimen>
+    <dimen name="bl000_tvTitle_weigh">51.37</dimen>
+    <dimen name="bl000_tvValue_weigh">44.6</dimen>
+    <dimen name="bl000_tvValue_separator_weigh">3.7</dimen>
+    <dimen name="tvPhoneNumber_weigh_1">47.52</dimen>
+    <dimen name="tvPhoneNumber_weigh_2">48.12</dimen>
+    <dimen name="tvPhoneNumber_padding">4.36</dimen>
+    <dimen name="bl108_group_money_width_percent">0.224</dimen>
+    <dimen name="ag000_list_item_apple_care_path_left">0.568</dimen>
+    <dimen name="ag000_list_item_apple_care_path_right">0.6</dimen>
+    <dimen name="ag00_list_item_guideline_path_left">0.568</dimen>
+    <dimen name="sc001_list_item_payment_history_path_left">0.568</dimen>
+    <dimen name="sc001_list_item_payment_history_path_right">0.6</dimen>
+    <dimen name="bl034_layout_spacing_big_item">57.8</dimen>
+    <dimen name="bl034_layout_spacing_small_item">38.5</dimen>
+    <dimen name="layout_spacing_path">3.7</dimen>
+    <dimen name="total_weigh_sum">100</dimen>
+
+    <dimen name="ag010_item_detail_guideline_path2">0.432</dimen>
+    <dimen name="ag010_item_detail_guideline_path1">0.4</dimen>
+    <dimen name="ag010_tv_value_weigh">57.8</dimen>
+    <dimen name="ag010_view_weigh">3.7</dimen>
+    <dimen name="ag005_tv_weight">33.6</dimen>
+    <dimen name="bl023_list_item_payment_info_path_left">0.344</dimen>
+    <dimen name="bl023_list_item_payment_info_path_right">0.376</dimen>
+    <dimen name="bl023_list_item_payment_guideline">3.7</dimen>
+    <dimen name="bl023_tv_label_company">32.1</dimen>
+    <dimen name="bl023_tv_company">64.2</dimen>
+    <dimen name="weight_sum_total">100</dimen>
+
+    <dimen name="pt003_history_point_img_padding_left">12dp</dimen>
+
+    <dimen name="spacing_middle_full">0.872</dimen>
+    <dimen name="spacing_middle_full_87">0.85321</dimen>
+    <dimen name="spacing_middle_full_mail">0.924</dimen>
+    <dimen name="sb09point_layout_spacing_percent_body">0.872</dimen>
+    <dimen name="pt004_layout_spacing_percent_item_point">0.45</dimen>
+    <dimen name="pt004_layout_spacing_percent_center">0.036697</dimen>
+
+    <dimen name="bl106_spacing_path1_left">0.32</dimen>
+    <dimen name="bl106_spacing_path1_right">0.341</dimen>
+    <dimen name="bl106_spacing_path2_left">0.517</dimen>
+    <dimen name="bl106_spacing_path2_right">0.538</dimen>
+    <dimen name="bl106_spacing_path3_left">0.714</dimen>
+    <dimen name="bl106_spacing_path3_right">0.735</dimen>
+    <dimen name="bl023_item_wrapper_buy_padding_top_bottom">18dp</dimen>
+    <dimen name="bl023_item_buy_content_margin_top_bottom">11dp</dimen>
+    <dimen name="bl023_line_spacing">5dp</dimen>
+    <dimen name="sc000_list_item_bank_card_path_right">0.6</dimen>
+    <dimen name="sc000_list_item_bank_card_path_left">0.568</dimen>
+    <dimen name="bl018_detail_tvTittle_weigh">44.8</dimen>
+    <dimen name="bl018_detail_tvTotal_weigh">33.6</dimen>
+    <dimen name="bl018_item_view_image">40dp</dimen>
+    <dimen name="bl000_min_size_ball">90dp</dimen>
+    <dimen name="bl000_height_physic_view">292dp</dimen>
+    <dimen name="hm001_charge_small_margin">6dp</dimen>
+    <dimen name="hm001_charge_tiny_margin">3dp</dimen>
+
+    <dimen name="bl023_spacing_item_left">0.32</dimen>
+    <dimen name="bl023_spacing_item_right">0.64</dimen>
+    <dimen name="bl018_spacing_path_left">0.12</dimen>
+    <dimen name="bl023_spacing_item_payment_left">0.28</dimen>
+    <dimen name="bl023_spacing_item_payment_right">0.56</dimen>
+
+    <dimen name="home_card_full_type_padding">24dp</dimen>
+    <dimen name="home_card_full_type_fixed_height">181dp</dimen>
+    <dimen name="home_card_half_type_padding">18dp</dimen>
+    <dimen name="home_card_half_type_fixed_height">272dp</dimen>
+    <dimen name="home_card_half_type_fixed_height_small">254dp</dimen>
+    <dimen name="tv_card_title_text_size">16dp</dimen>
+    <dimen name="tv_card_title_view_size">21dp</dimen>
+    <dimen name="tv_card_error_msg_text_size">14dp</dimen>
+    <dimen name="iv_card_error_width">18dp</dimen>
+    <dimen name="iv_card_error_height">18dp</dimen>
+    <dimen name="iv_card_error_margin_small">4dp</dimen>
+    <dimen name="ic_error_margin_small">2dp</dimen>
+    <dimen name="iv_card_error_margin_medium">6dp</dimen>
+    <dimen name="home_card_content_width_percent">0.8532</dimen>
+
+    <dimen name="hm001_contract_info_plan_image_separator_percent">0.032</dimen>
+    <dimen name="dialog_push_setting_button_height">48dp</dimen>
+    <dimen name="dialog_push_setting_title_text_size">19dp</dimen>
+    <dimen name="dialog_push_setting_message_text_size">15dp</dimen>
+    <dimen name="dialog_push_setting_button_text_size">17dp</dimen>
+    <dimen name="bl023_linear_nodata_height">150dp</dimen>
+
+    <dimen name="hm001_text_installment_margin_top">3dp</dimen>
+    <dimen name="hm001_plan_installment_min_width_device_info">40dp</dimen>
+
+    <dimen name="dialog_update_version_app_text_size_button">14dp</dimen>
+    <dimen name="dialog_update_version_app_height_button">48dp</dimen>
+    <dimen name="dialog_update_version_app_text_size_content">18dp</dimen>
+    <dimen name="dialog_update_version_app_margin_24dp">24dp</dimen>
+    <dimen name="dialog_api_error_margin_top_20dp">20dp</dimen>
+    <!-- Aut028 -->
+    <dimen name="aut028_button_text_size_left">16dp</dimen>
+    <dimen name="aut028_common_margin_top">21dp</dimen>
+    <dimen name="aut028_common_padding_side">24dp</dimen>
+    <dimen name="aut028_ic_warning_size">16dp</dimen>
+    <dimen name="aut028_tv_warning_margin_left">6dp</dimen>
+    <dimen name="aut028_common_text_size">14dp</dimen>
+    <dimen name="aut028_bt_next_height">50dp</dimen>
+    <dimen name="aut028_bt_next_margin">36dp</dimen>
+    <dimen name="aut028_iv_expandable_controller_size">20dp</dimen>
+    <dimen name="aut028_ic_pull_out_status_bar_height">242dp</dimen>
+    <dimen name="aut028_ic_turn_off_wifi_height">160dp</dimen>
+    <dimen name="aut028_ic_turn_off_wifi_margin_top">17dp</dimen>
+    <dimen name="aut028_divider_height">0.5dp</dimen>
+    <dimen name="aut028_ic_pull_out_status_bar_margin_top">13.5dp</dimen>
+    <dimen name="aut028_ic_turn_off_wifi_margin_bottom">72.5dp</dimen>
+    <dimen name="aut028_tv_sbid_text_size">14dp</dimen>
+    <dimen name="aut028_tv_sbid_height">62dp</dimen>
+    <dimen name="common_radio_checkbox_padding_top">2dp</dimen>
+    <dimen name="common_radio_checkbox_half_padding">12dp</dimen>
+    <dimen name="common_radio_checkbox_text_margin">8dp</dimen>
+    <dimen name="bl023_service_name_margin_start">22dp</dimen>
+    <dimen name="bl023_viewgroup_status_margin_top">14dp</dimen>
+    <dimen name="bl023_viewgroup_status_margin_bottom">12dp</dimen>
+    <dimen name="bl023_item_cast_margin_start">2dp</dimen>
+    <dimen name="bl023_item_header_note_margin_top">6dp</dimen>
+    <dimen name="bl023_item_header_note_margin_bottom">12dp</dimen>
+
+    <dimen name="hm000_sb_card_view_height">24dp</dimen>
+    <dimen name="hm000_sb_card_amount_margin_start">6dp</dimen>
+    <dimen name="hm000_sb_card_card_guideline_start">0.073</dimen>
+    <dimen name="hm000_sb_card_card_guideline_end">0.927</dimen>
+    <dimen name="hm000_sb_card_image_guideline_start">0.043</dimen>
+    <dimen name="hm000_sb_card_item_error_guideline_top">0.602</dimen>
+
+    <!-- Update new UI Design home_1211_納品 -->
+    <dimen name="charge_card_upper_height">146dp</dimen>
+    <dimen name="charge_card_lower_min_height">98dp</dimen>
+    <dimen name="charge_card_lower_marginTop">126dp</dimen>
+    <dimen name="charge_card_inside_shadow_height">12dp</dimen>
+    <dimen name="wave_view_height">4dp</dimen>
+    <dimen name="charge_card_upper_padding_vertical">18dp</dimen>
+    <dimen name="charge_card_lower_padding_vertical">18dp</dimen>
+    <dimen name="tv_charge_payment_status_width">56dp</dimen>
+    <dimen name="tv_charge_payment_status_height">20dp</dimen>
+    <dimen name="tv_charge_payment_status_margin_bottom">4dp</dimen>
+    <dimen name="tv_charge_money_unit_margin_start">3dp</dimen>
+    <dimen name="hm000_sb_card_space_margin_bottom">24dp</dimen>
+    <dimen name="sb_card_corner_radius_lower">12dp</dimen>
+    <dimen name="sc_card_corner_radius_upper">12dp</dimen>
+    <dimen name="sc_shadow_center_size">20dp</dimen>
+    <dimen name="sc_shadow_center_margin_top">4dp</dimen>
+    <dimen name="sb_card_lower_title_margin_top">42dp</dimen>
+    <dimen name="sb_card_error_msg_margin_start">6dp</dimen>
+    <dimen name="sc_card_top_left_radius">12dp</dimen>
+    <dimen name="sb_card_ic_register_size">16dp</dimen>
+
+    <dimen name="medium_line_spacing">8dp</dimen>
+
+    <dimen name="line_height_27dp">27dp</dimen>
+    <dimen name="line_height_24dp">24dp</dimen>
+    <dimen name="line_height_22dp">22dp</dimen>
+
+    <!-- ps024 -->
+    <dimen name="ps024_title_margin">24dp</dimen>
+    <dimen name="ps024_title_margin_bottom">12dp</dimen>
+    <dimen name="ps024_margin_21dp">21dp</dimen>
+    <dimen name="ps024_margin_bottom_24dp">24dp</dimen>
+    <dimen name="ps024_height_button_48dp">48dp</dimen>
+    <dimen name="ps024_title_size_18dp">18dp</dimen>
+    <dimen name="ps082_margin_top_24dp">24dp</dimen>
+    <dimen name="ps082_margin_bottom_18dp">12dp</dimen>
+    <dimen name="ps082_title_text_size">18dp</dimen>
+    <dimen name="ps082_message_text_size">14dp</dimen>
+    <dimen name="ps084_title_text_size">18dp</dimen>
+    <dimen name="ps084_message_text_size">14dp</dimen>
+    <dimen name="dialog_ipauth_error_message">24dp</dimen>
+    <dimen name="fs004_button_text_size">16dp</dimen>
+    <dimen name="fs004_content_margin_start">24dp</dimen>
+
+    <dimen name="fs005_radius">35.5dp</dimen>
+    <dimen name="fs005_box_margin_start">28dp</dimen>
+    <dimen name="fs005_box_height">158dp</dimen>
+    <dimen name="ic_warning_margin_start_title">4dp</dimen>
+    <dimen name="sb_toast_bottom_padding_no_tabbar">27dp</dimen>
+    <dimen name="bl000_tv_status_min_width">56dp</dimen>
+    <dimen name="bl000_tv_status_min_height">20dp</dimen>
+    <dimen name="bl000_partial_text_size_18">18dp</dimen>
+
+    <dimen name="hm000_ic_pagier_size">36dp</dimen>
+    <dimen name="home_card_item_padding">24dp</dimen>
+    <dimen name="home_card_item_padding_wrapper">48dp</dimen>
+    <dimen name="home_card_item_corner_radius">24dp</dimen>
+    <dimen name="fs005_help_text_size">16dp</dimen>
+    <dimen name="sc004_item_line_margin_bottom">36dp</dimen>
+    <dimen name="sc004_item_radio_padding_bottom">12dp</dimen>
+    <dimen name="sc004_view_line_margin_top">24dp</dimen>
+
+    <dimen name="bl000_text_view_phone_margin_top">2dp</dimen>
+    <dimen name="bl023_text_view_web_margin_end">4dp</dimen>
+    <dimen name="bl000_textsize_phone">12dp</dimen>
+    <dimen name="bl000_textsize_amount">14dp</dimen>
+    <dimen name="bl019_radius_dialog">22dp</dimen>
+    <dimen name="bl019_radius_dialog_change">12dp</dimen>
+    <dimen name="bl019_partial_padding_top">48dp</dimen>
+    <dimen name="aut028_nummering_margin">6dp</dimen>
+    <dimen name="bl000_ball_size_130">130dp</dimen>
+    <dimen name="bl000_ball_padding_top_bottom_2">2dp</dimen>
+    <dimen name="bl000_ball_text_size_phone_12">12dp</dimen>
+    <dimen name="bl000_ball_text_size_phone_14">14dp</dimen>
+    <dimen name="bl000_ball_size_160">160dp</dimen>
+    <dimen name="bl000_ball_padding_top_bottom_3">3dp</dimen>
+    <dimen name="bl000_ball_padding_top_bottom_4">4dp</dimen>
+    <dimen name="bl000_ball_text_size_phone_17">17dp</dimen>
+    <dimen name="bl000_ball_size_100">100dp</dimen>
+    <dimen name="bl000_ball_text_size_phone_11">11dp</dimen>
+    <dimen name="bl000_ball_padding_mark">1dp</dimen>
+    <dimen name="bl108_button_check_history_margin_top">24dp</dimen>
+    <dimen name="bl019_lines_margin_bottom">9dp</dimen>
+    <!-- Dialog Error -->
+    <dimen name="dialog_error_title_text_size">18dp</dimen>
+    <dimen name="dialog_error_title_margin_top">24dp</dimen>
+    <dimen name="dialog_error_title_margin_bottom">12dp</dimen>
+    <dimen name="dialog_error_button_text_size">14dp</dimen>
+    <dimen name="dialog_error_button_height">48dp</dimen>
+    <dimen name="dialog_error_content_text_size">14dp</dimen>
+    <dimen name="dialog_error_content_margin_end">30dp</dimen>
+    <dimen name="fs000_button_guideline_percent">0.75</dimen>
+    <dimen name="ag029_item_unit_text_size">12dp</dimen>
+    <dimen name="ag029_item_unit_padding_start">2dp</dimen>
+    <dimen name="ag029_divider_item">36dp</dimen>
+
+    <dimen name="ps024_btn_ok_text_size">17dp</dimen>
+    <dimen name="ps024_btn_left_text_size">16dp</dimen>
+    <dimen name="hm001_tv_confirm_charge_text_after_width">56dp</dimen>
+    <dimen name="sc000_cardview_radius">12dp</dimen>
+    <dimen name="sc000_cardview_elevation">24dp</dimen>
+    <dimen name="bl019_height_dialog_filter">512dp</dimen>
+    <dimen name="bl000_ball_size_28">28dp</dimen>
+    <dimen name="bl000_ball_size_36">36dp</dimen>
+    <dimen name="bl000_ball_size_50">50dp</dimen>
+    <dimen name="hm000_charge_blogpayment_margin_top">18dp</dimen>
+
+    <dimen name="header_view_title_translation_anim_distance">50dp</dimen>
+    <dimen name="ag000_item_option_no_data_text_size">14dp</dimen>
+    <dimen name="ag000_item_no_data_padding">36dp</dimen>
+    <dimen name="ag000_item_no_data_padding_bottom">12dp</dimen>
+    <dimen name="ag027_item_long_term_text_size">15dp</dimen>
+
+    <dimen name="iv_softbank_full_maintenance_size">140dp</dimen>
+    <dimen name="iv_softbank_full_maintenance_h_padding">31dp</dimen>
+    <dimen name="iv_softbank_full_maintenance_v_padding">25dp</dimen>
+    <dimen name="screen_maintenance_normal_spacing">24dp</dimen>
+    <dimen name="screen_maintenance_summary_text_size">18dp</dimen>
+    <dimen name="screen_maintenance_datetime_border_h_padding">20.5dp</dimen>
+    <dimen name="screen_maintenance_datetime_border_v_padding">18dp</dimen>
+    <dimen name="screen_maintenance_datetime_text_size">16dp</dimen>
+    <dimen name="screen_maintenance_datetime_text_margin_top">8dp</dimen>
+    <dimen name="screen_maintenance_datetime_line_spacing">6dp</dimen>
+    <dimen name="screen_maintenance_bg_datetime_radius">4dp</dimen>
+    <dimen name="screen_maintenance_bg_datetime_stroke_width">0.5dp</dimen>
+    <dimen name="sb_text_view_custom_margin_end">2dp</dimen>
+
+    <!-- PS070 -->
+    <dimen name="ps070_margin_8dp">8dp</dimen>
+    <dimen name="ps070_margin_16dp">16dp</dimen>
+    <dimen name="ps070_button_logout_height">44dp</dimen>
+    <dimen name="ps070_button_logout_margin_start">24dp</dimen>
+    <dimen name="ps070_button_logout_margin_bottom">24dp</dimen>
+
+    <!--app-37-->
+    <dimen name="mn000_ic_link_size">18dp</dimen>
+    <dimen name="dialog_open_link_content_padding_vertical">24dp</dimen>
+    <dimen name="dialog_open_link_content_padding_horizontal">18dp</dimen>
+    <dimen name="dialog_open_link_checkbox_size">24dp</dimen>
+    <dimen name="dialog_open_link_ll_checkbox_margin_top">12dp</dimen>
+    <dimen name="dialog_open_link_tv_title_text_size">18dp</dimen>
+    <dimen name="dialog_open_link_tv_checkbox_text_size">14dp</dimen>
+    <dimen name="dialog_open_link_ll_action_height">48dp</dimen>
+    <dimen name="dialog_open_link_action_text_size">14dp</dimen>
+    <dimen name="dialog_open_link_divider_size">0.5dp</dimen>
+    <dimen name="dialog_open_link_tv_checkbox_margin_start">6dp</dimen>
+    <dimen name="mn000_ic_link_margin_start">2dp</dimen>
+    <dimen name="item_notification_text_size">14dp</dimen>
+    <dimen name="hm000_notify_title_margin_end">15dp</dimen>
+    <dimen name="hm000_notify_ic_size">18dp</dimen>
+    <dimen name="ic_link_margin_start">3dp</dimen>
+    <dimen name="hm000_notify_padding_left">24dp</dimen>
+    <dimen name="hm000_notify_icon_link_size">36dp</dimen>
+    <dimen name="hm000_notify_icon_link_padding">10dp</dimen>
+    <dimen name="hm000_notify_icon_link_margin">8dp</dimen>
+    <dimen name="hm000_notify_bg_gradient_width">106dp</dimen>
+    <dimen name="hm000_notify_bg_gradient_height">106dp</dimen>
+    <dimen name="hm000_notification_divider_height">0.5dp</dimen>
+    <dimen name="bl019_tv_margin_left_change">92dp</dimen>
+    <dimen name="dialog_ios_right_button_padding">8dp</dimen>
+    <dimen name="pt025_button_margin_top">24dp</dimen>
+</resources>

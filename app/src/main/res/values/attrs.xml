@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by PS Solutions on 09/18/2017.
+  ~ Copyright © 2017 Softbank. All rights reserved.
+  ~
+  -->
+
+<resources>
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension" />
+        <attr name="ci_height" format="dimension" />
+        <attr name="ci_margin" format="dimension" />
+        <attr name="ci_max_animator" format="reference" />
+        <attr name="ci_medium_animator" format="reference" />
+        <attr name="ci_min_animator" format="reference" />
+        <attr name="ci_drawable" format="reference" />
+        <attr name="ci_drawable_unselected" format="reference" />
+        <attr name="ci_color_cirlce" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ReceptionMailBoxView">
+        <attr name="rmb_title" format="string" />
+        <attr name="rmb_error_message" format="string" />
+        <attr name="rmb_number" format="string" />
+        <attr name="rmb_radio_left_top" format="string" />
+        <attr name="rmb_radio_left_bottom" format="string" />
+        <attr name="rmb_radio_right_top" format="string" />
+        <attr name="rmb_radio_right_bottom" format="string" />
+        <attr name="rmb_is_show_number" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AddressMailBoxView">
+        <attr name="amb_title" format="string" />
+        <attr name="amb_sMailAddress" format="string" />
+        <attr name="amb_eMailAddress" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="MainCategoryView">
+        <attr name="mcv_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SubCategoryView">
+        <attr name="scv_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SpamMailCategoryView">
+        <attr name="spam_mail_title" format="string" />
+        <attr name="spam_mail_sub_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageButtonView">
+        <attr name="mmv_text_top" format="string" />
+        <attr name="mmv_text_bottom" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RightButtonView">
+        <attr name="mfv_text" format="string" />
+        <attr name="mfv_text_button" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ReceptionPermitButtonView">
+        <attr name="rpv_return_text" format="string" />
+        <attr name="rpv_delete_text" format="string" />
+        <attr name="rpv_return_text_color" format="color" />
+        <attr name="rpv_delete_text_color" format="color" />
+    </declare-styleable>
+    <!-- stepper -->
+    <attr name="step">
+        <enum name="first" value="0" />
+        <enum name="second" value="1" />
+        <enum name="third" value="2" />
+    </attr>
+    <attr name="stepStyle">
+        <enum name="twoSteps" value="0" />
+        <enum name="threeSteps" value="1" />
+    </attr>
+    <declare-styleable name="StepperView">
+        <attr name="firstSteepText" format="string" />
+        <attr name="secondSteepText" format="string" />
+        <attr name="thirdSteepText" format="string" />
+        <attr name="step" />
+        <attr name="stepStyle" />
+    </declare-styleable>
+    <!-- end stepper-->
+    <declare-styleable name="HeaderView">
+        <attr name="headerTextSize" format="dimension" />
+        <attr name="headerTitle" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewDot">
+        <attr name="textDotcontent" format="string" />
+        <attr name="textSizeContent" format="dimension" />
+        <attr name="dotImage" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseSView">
+        <attr name="bsv_icon" format="reference" />
+        <attr name="bsv_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="HM001PointCardView">
+        <attr name="bmv_icon" format="integer" />
+        <attr name="bmv_title" format="string" />
+        <attr name="bmv_number" format="string" />
+        <attr name="bmv_unit" format="string" />
+    </declare-styleable>
+    <declare-styleable name="BankCardMView">
+        <attr name="bcv_title" format="string" />
+        <attr name="bcv_cardImage" format="integer" />
+        <attr name="bcv_textView" format="string" />
+        <attr name="bcv_numberTextView" format="string" />
+    </declare-styleable>
+
+    <!-- HM-001 -->
+    <declare-styleable name="ContractPlanView">
+        <attr name="cpv_plan_contract_term" format="string" />
+        <attr name="cpv_plan_update_term" format="string" />
+        <attr name="cpv_plan_service_amount" format="string" />
+        <attr name="cpv_packet_service_amount" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ShopDetailLView">
+        <attr name="sdlv_shopName" format="string" />
+        <attr name="sdlv_numberShopNearby" format="string" />
+    </declare-styleable>
+
+    <!--SBCard Detail-->
+    <declare-styleable name="ItemSBCardDetailView">
+        <attr name="sbcd_title" format="string" />
+        <attr name="sbcd_price" format="string" />
+        <attr name="sbcd_icon" format="reference" />
+        <attr name="sbCardTextStyle" />
+    </declare-styleable>
+    <attr name="sbCardTextStyle">
+        <enum name="normal" value="0" />
+        <enum name="bold" value="1" />
+        <enum name="italic" value="2" />
+        <enum name="bold_italic" value="3" />
+    </attr>
+
+    <!--T Point-->
+    <declare-styleable name="ItemBasePointHomeView">
+        <attr name="ib_title" format="string" />
+        <attr name="sum_point" format="string" />
+        <attr name="state_card" format="string" />
+        <attr name="ib_price" format="string" />
+        <attr name="ib_icon" format="reference" />
+        <attr name="ib_sub_title" format="string" />
+    </declare-styleable>
+
+    <!--Plan Change Plan-->
+    <declare-styleable name="ItemChangePlanView">
+        <attr name="cp_title" format="string" />
+        <attr name="cp_price" format="string" />
+        <attr name="cp_icon" format="reference" />
+    </declare-styleable>
+
+    <!--Mail setting option-->
+    <declare-styleable name="ItemOptionMailSetting">
+        <attr name="ioms_header" format="string" />
+        <attr name="ioms_icon_warning" format="reference" />
+        <attr name="ioms_icon_end" format="reference" />
+        <attr name="ioms_content" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SB05SpamFilterStateContainer">
+        <attr name="spam_filter_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SB05ML002CommonCheckBox">
+        <attr name="ccb_title" format="string" />
+        <attr name="ccb_is_recommended" format="boolean" />
+    </declare-styleable>
+
+    <!--Mail setting mail box-->
+    <declare-styleable name="ItemMailSettingMailBox">
+        <attr name="imsmb_header" format="string" />
+        <attr name="imsmb_icon_mail" format="reference" />
+        <attr name="imsmb_icon_end" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseHeaderView">
+        <attr name="isVisibleLeft" format="boolean" />
+        <attr name="isVisibleCenter" format="boolean" />
+        <attr name="isVisibleRight" format="boolean" />
+        <attr name="headerType" format="enum">
+            <enum name="H1" value="1"/>
+            <enum name="H2" value="2"/>
+            <enum name="H3" value="3"/>
+            <enum name="H4" value="4"/>
+            <enum name="H5" value="5"/>
+            <enum name="Home" value="6"/>
+
+        </attr>
+    </declare-styleable>
+
+    <!--SBButton-->
+    <declare-styleable name="SBButton">
+        <attr name="sbb_bg_disable" format="reference" />
+        <attr name="sbb_bg_enable" format="reference" />
+        <attr name="sbb_bg_highlight" format="reference" />
+    </declare-styleable>
+
+    <!--SBSegment-->
+    <declare-styleable name="SBSegment">
+        <attr name="sbseg_selected_start_color" format="color" />
+        <attr name="sbseg_selected_end_color" format="color" />
+        <attr name="sbseg_separate_color" format="color" />
+        <attr name="sbseg_separate_width" format="dimension" />
+        <attr name="sbseg_segment_title_color_selector" format="reference" />
+    </declare-styleable>
+
+    <!--SBSwitch-->
+    <declare-styleable name="SBSwitch">
+        <attr name="sbsw_on_background_color" format="reference|color" />
+        <attr name="sbsw_off_background_color" format="reference|color" />
+        <attr name="sbsw_toggle_color" format="reference|color" />
+        <attr name="sbsw_toggle_stroke_margin" format="dimension" />
+        <attr name="sbsw_animate_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SBSettingItem">
+        <attr name="sb_setting_item_title" format="string" />
+        <attr name="sb_setting_item_title_color" format="reference|color" />
+    </declare-styleable>
+
+    <!--SB Footer-->
+    <declare-styleable name="SB00CommonFooter">
+        <attr name="sb_link_btn_visible" format="boolean"/>
+    </declare-styleable>
+
+    <!-- SB Rolling number -->
+    <declare-styleable name="SBRollingNumber">
+        <attr name="digit_height" format="dimension" />
+        <attr name="digit_size" format="dimension" />
+        <attr name="text_color" format="color" />
+    </declare-styleable>
+
+    <!-- SB RoundImageView -->
+    <declare-styleable name="RoundImageView">
+        <attr name="sb_corner_radius" format="dimension" />
+        <attr name="sb_corner_all" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SBButtonCheckBoxOutline">
+        <attr name="sbco_title" format="string" />
+        <attr name="sbco_description" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SB00CommonRadioCheckboxHalf">
+        <attr name="crc_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FS005View"></declare-styleable>
+
+    <declare-styleable name="BallPointCircle">
+        <attr name="colorGenerator" format="string" />
+        <attr name="animationGenerator" format="string" />
+        <attr name="animationGenerators" format="reference" />
+        <attr name="style" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="BallPaintGenerate">
+        <attr name="array_colors" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BallPathAnimator">
+
+        <attr name="path" format="string" />
+    </declare-styleable>
+</resources>
